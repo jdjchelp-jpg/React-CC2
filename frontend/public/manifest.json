@@ -1,0 +1,21 @@
+{
+  "name": "Christmas Countdown",
+  "short_name": "Xmas Countdown",
+  "description": "A festive Christmas countdown application",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e3a8a",
+  "theme_color": "#dc2626",
+  "icons": [
+    {
+      "src": "/christmas-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/christmas-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "app": {
+    "title": "Compte à Rebours de Noël",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "Jours",
+    "hours": "Heures",
+    "minutes": "Minutes",
+    "seconds": "Secondes",
+    "christmas": "C'est Noël ! 🎄",
+    "yearProgress": "Progression de l'Année vers Noël",
+    "daysLeft": "Jours Restants",
+    "yearComplete": "{{percent}}% de l'année terminée"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "description": "Personnalisez votre expérience de compte à rebours",
+    "colorTheme": "Thème de Couleur",
+    "snowIntensity": "Intensité de la Neige",
+    "musicVolume": "Volume de la Musique",
+    "customMusic": "URL de Musique Personnalisée",
+    "customMusicPlaceholder": "Collez le lien audio JukeHost ici...",
+    "customMusicHelp": "Téléchargez votre audio sur JukeHost.co.uk et collez le lien direct ici",
+    "language": "Langue",
+    "notifications": "Notifications"
+  },
+  "themes": {
+    "classic": "Rouge et Vert Classique",
+    "winter": "Bleu et Blanc Hivernal",
+    "royal": "Violet et Or Royal",
+    "candy": "Rose et Rouge Bonbon",
+    "golden": "Élégance Dorée",
+    "icy": "Givre Glacé",
+    "forest": "Vert Forêt",
+    "sunset": "Lueur du Coucher de Soleil",
+    "aurora": "Aurore Boréale"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands"
+  },
+  "notifications": {
+    "title": "Notifications Push",
+    "enabled": "Activé",
+    "disabled": "Désactivé",
+    "blocked": "Les notifications sont bloquées. Veuillez les activer dans les paramètres de votre navigateur.",
+    "oneWeekLabel": "1 Semaine Avant",
+    "oneWeekDefault": "🎄 Plus qu'une semaine avant Noël !",
+    "threeDaysLabel": "3 Jours Avant",
+    "threeDaysDefault": "🎅 Plus que 3 jours avant Noël !",
+    "oneDayLabel": "1 Jour Avant",
+    "oneDayDefault": "🎁 Noël c'est demain !"
+  },
+  "games": {
+    "title": "Mini-Jeux de Noël",
+    "subtitle": "Les jeux se débloquent à l'approche de Noël !",
+    "playNow": "Jouer Maintenant",
+    "backToGames": "← Retour aux Jeux",
+    "locked": "Verrouillé",
+    "unlocksIn": "Se débloque dans {{days}} jours",
+    "memory": {
+      "name": "Jeu de Mémoire GIF",
+      "description": "Associez des paires d'emojis de Noël",
+      "moves": "Coups",
+      "pairs": "Paires",
+      "congratulations": "🎉 Félicitations !",
+      "completedIn": "Vous avez terminé le jeu en {{moves}} coups !",
+      "score": "Score : {{score}}",
+      "newGame": "Nouveau Jeu"
+    },
+    "snowflakes": {
+      "name": "Attraper les Flocons de Neige",
+      "description": "Cliquez sur les flocons qui tombent pour marquer des points",
+      "score": "Score",
+      "time": "Temps",
+      "gameOver": "Jeu Terminé !",
+      "finalScore": "Score Final : {{score}}",
+      "highScore": "Meilleur Score : {{score}}",
+      "startGame": "Commencer le Jeu",
+      "playing": "En cours..."
+    },
+    "decorate": {
+      "name": "Décorer le Sapin",
+      "description": "Glissez-déposez des décorations sur le sapin",
+      "score": "Score",
+      "ornaments": "Décorations",
+      "clickToPlace": "Cliquez sur le sapin pour placer {{ornament}}",
+      "clearTree": "Effacer le Sapin",
+      "saveTree": "Sauvegarder le Sapin",
+      "treeSaved": "Sapin sauvegardé ! Score : {{score}}"
+    },
+    "sleigh": {
+      "name": "Course en Traîneau du Père Noël",
+      "description": "Aidez le Père Noël à éviter les obstacles",
+      "score": "Score",
+      "high": "Meilleur",
+      "crash": "Collision !",
+      "finalScore": "Score Final : {{score}}",
+      "instructions": "Utilisez les touches ↑ et ↓ pour déplacer le Père Noël",
+      "startGame": "Commencer le Jeu",
+      "playing": "En cours..."
+    },
+    "stack": {
+      "name": "Empiler les Cannes en Sucre",
+      "description": "Empilez les cannes en sucre le plus haut possible",
+      "stack": "Pile",
+      "high": "Meilleure",
+      "collapsed": "Pile Effondrée !",
+      "finalHeight": "Hauteur Finale : {{height}}",
+      "score": "Score : {{score}}",
+      "instructions": "Cliquez ou appuyez sur Espace pour lâcher la canne en sucre",
+      "startGame": "Commencer le Jeu",
+      "drop": "Lâcher",
+      "playing": "En cours..."
+    },
+    "snowman": {
+      "name": "Construire un Bonhomme de Neige",
+      "description": "Glissez-déposez des parties pour construire votre bonhomme de neige",
+      "score": "Score",
+      "partsPlaced": "Parties Placées",
+      "availableParts": "Parties Disponibles",
+      "selectPart": "Sélectionnez une partie à droite",
+      "clickToPlace": "Cliquez pour placer {{part}}",
+      "congratulations": "🎉 Bonhomme de Neige Complet !",
+      "finalScore": "Score Final : {{score}}",
+      "resetSnowman": "Réinitialiser le Bonhomme de Neige"
+    }
+  },
+  "quotes": {
+    "loading": "Chargement de la citation..."
+  },
+  "menu": {
+    "year": "Année",
+    "settings": "Paramètres",
+    "games": "Jeux"
+  }
+}

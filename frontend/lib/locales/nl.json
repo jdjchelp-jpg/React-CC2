@@ -1,0 +1,140 @@
+{
+  "app": {
+    "title": "Kerstaftelling",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "Dagen",
+    "hours": "Uren",
+    "minutes": "Minuten",
+    "seconds": "Seconden",
+    "christmas": "Het is Kerstmis! 🎄",
+    "yearProgress": "Jaarvoortgang naar Kerstmis",
+    "daysLeft": "Dagen Over",
+    "yearComplete": "{{percent}}% van het jaar voltooid"
+  },
+  "settings": {
+    "title": "Instellingen",
+    "description": "Pas je kerstaftelling ervaring aan",
+    "colorTheme": "Kleurenthema",
+    "snowIntensity": "Sneeuw Intensiteit",
+    "musicVolume": "Muziekvolume",
+    "customMusic": "Aangepaste Muziek URL",
+    "customMusicPlaceholder": "Plak JukeHost audiolink hier...",
+    "customMusicHelp": "Upload je audio naar JukeHost.co.uk en plak de directe link hier",
+    "language": "Taal",
+    "notifications": "Meldingen"
+  },
+  "themes": {
+    "classic": "Klassiek Rood & Groen",
+    "winter": "Winter Blauw & Wit",
+    "royal": "Koninklijk Paars & Goud",
+    "candy": "Snoep Roze & Rood",
+    "golden": "Gouden Elegantie",
+    "icy": "IJzige Vorst",
+    "forest": "Bos Groen",
+    "sunset": "Zonsondergang Gloed",
+    "aurora": "Noorderlicht"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands"
+  },
+  "notifications": {
+    "title": "Push Meldingen",
+    "enabled": "Ingeschakeld",
+    "disabled": "Uitgeschakeld",
+    "blocked": "Meldingen zijn geblokkeerd. Schakel ze in via je browserinstellingen.",
+    "oneWeekLabel": "1 Week Ervoor",
+    "oneWeekDefault": "🎄 Nog maar 1 week tot Kerstmis!",
+    "threeDaysLabel": "3 Dagen Ervoor",
+    "threeDaysDefault": "🎅 Nog maar 3 dagen tot Kerstmis!",
+    "oneDayLabel": "1 Dag Ervoor",
+    "oneDayDefault": "🎁 Morgen is het Kerstmis!"
+  },
+  "games": {
+    "title": "Kerst Mini-Spelletjes",
+    "subtitle": "Spelletjes worden ontgrendeld naarmate Kerstmis nadert!",
+    "playNow": "Nu Spelen",
+    "backToGames": "← Terug naar Spelletjes",
+    "locked": "Vergrendeld",
+    "unlocksIn": "Ontgrendelt over {{days}} dagen",
+    "memory": {
+      "name": "Geheugen GIF Spel",
+      "description": "Match paren van kerst emoji's",
+      "moves": "Zetten",
+      "pairs": "Paren",
+      "congratulations": "🎉 Gefeliciteerd!",
+      "completedIn": "Je hebt het spel voltooid in {{moves}} zetten!",
+      "score": "Score: {{score}}",
+      "newGame": "Nieuw Spel"
+    },
+    "snowflakes": {
+      "name": "Vang de Sneeuwvlokken",
+      "description": "Klik op vallende sneeuwvlokken om punten te scoren",
+      "score": "Score",
+      "time": "Tijd",
+      "gameOver": "Game Over!",
+      "finalScore": "Eindsccore: {{score}}",
+      "highScore": "Hoogste Score: {{score}}",
+      "startGame": "Start Spel",
+      "playing": "Aan het spelen..."
+    },
+    "decorate": {
+      "name": "Versier de Boom",
+      "description": "Sleep en zet versieringen op de boom",
+      "score": "Score",
+      "ornaments": "Versieringen",
+      "clickToPlace": "Klik op de boom om {{ornament}} te plaatsen",
+      "clearTree": "Boom Leegmaken",
+      "saveTree": "Boom Opslaan",
+      "treeSaved": "Boom opgeslagen! Score: {{score}}"
+    },
+    "sleigh": {
+      "name": "Kerstman Slee Rit",
+      "description": "Help de Kerstman obstakels te vermijden",
+      "score": "Score",
+      "high": "Hoogste",
+      "crash": "Crash!",
+      "finalScore": "Eindsccore: {{score}}",
+      "instructions": "Gebruik ↑ en ↓ pijltjestoetsen om de Kerstman te bewegen",
+      "startGame": "Start Spel",
+      "playing": "Aan het spelen..."
+    },
+    "stack": {
+      "name": "Zuurstok Stapel",
+      "description": "Stapel zuurstokken zo hoog mogelijk",
+      "stack": "Stapel",
+      "high": "Hoogste",
+      "collapsed": "Stapel Ingestort!",
+      "finalHeight": "Eindehoogte: {{height}}",
+      "score": "Score: {{score}}",
+      "instructions": "Klik of druk op Spatie om de zuurstok te laten vallen",
+      "startGame": "Start Spel",
+      "drop": "Laten Vallen",
+      "playing": "Aan het spelen..."
+    },
+    "snowman": {
+      "name": "Bouw een Sneeuwpop",
+      "description": "Sleep en zet delen om je sneeuwpop te bouwen",
+      "score": "Score",
+      "partsPlaced": "Geplaatste Delen",
+      "availableParts": "Beschikbare Delen",
+      "selectPart": "Selecteer een deel aan de rechterkant",
+      "clickToPlace": "Klik om {{part}} te plaatsen",
+      "congratulations": "🎉 Sneeuwpop Compleet!",
+      "finalScore": "Eindsccore: {{score}}",
+      "resetSnowman": "Reset Sneeuwpop"
+    }
+  },
+  "quotes": {
+    "loading": "Citaat laden..."
+  },
+  "menu": {
+    "year": "Jaar",
+    "settings": "Instellingen",
+    "games": "Spelletjes"
+  }
+}

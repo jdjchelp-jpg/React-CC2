@@ -1,0 +1,140 @@
+{
+  "app": {
+    "title": "Christmas Countdown",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "christmas": "It's Christmas! 🎄",
+    "yearProgress": "Year Progress to Christmas",
+    "daysLeft": "Days Left",
+    "yearComplete": "{{percent}}% of the year complete"
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Customize your Christmas countdown experience",
+    "colorTheme": "Color Theme",
+    "snowIntensity": "Snow Intensity",
+    "musicVolume": "Music Volume",
+    "customMusic": "Custom Music URL",
+    "customMusicPlaceholder": "Paste JukeHost audio link here...",
+    "customMusicHelp": "Upload your audio to JukeHost.co.uk and paste the direct link here",
+    "language": "Language",
+    "notifications": "Notifications"
+  },
+  "themes": {
+    "classic": "Classic Red & Green",
+    "winter": "Winter Blue & White",
+    "royal": "Royal Purple & Gold",
+    "candy": "Candy Pink & Red",
+    "golden": "Golden Elegance",
+    "icy": "Icy Frost",
+    "forest": "Forest Green",
+    "sunset": "Sunset Glow",
+    "aurora": "Aurora Borealis"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands"
+  },
+  "notifications": {
+    "title": "Push Notifications",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "blocked": "Notifications are blocked. Please enable them in your browser settings.",
+    "oneWeekLabel": "1 Week Before",
+    "oneWeekDefault": "🎄 Only 1 week until Christmas!",
+    "threeDaysLabel": "3 Days Before",
+    "threeDaysDefault": "🎅 Just 3 days left until Christmas!",
+    "oneDayLabel": "1 Day Before",
+    "oneDayDefault": "🎁 Christmas is tomorrow!"
+  },
+  "games": {
+    "title": "Christmas Mini-Games",
+    "subtitle": "Games unlock as Christmas approaches!",
+    "playNow": "Play Now",
+    "backToGames": "← Back to Games",
+    "locked": "Locked",
+    "unlocksIn": "Unlocks in {{days}} days",
+    "memory": {
+      "name": "Memory GIF Game",
+      "description": "Match pairs of Christmas emojis",
+      "moves": "Moves",
+      "pairs": "Pairs",
+      "congratulations": "🎉 Congratulations!",
+      "completedIn": "You completed the game in {{moves}} moves!",
+      "score": "Score: {{score}}",
+      "newGame": "New Game"
+    },
+    "snowflakes": {
+      "name": "Catch the Snowflakes",
+      "description": "Click falling snowflakes to score points",
+      "score": "Score",
+      "time": "Time",
+      "gameOver": "Game Over!",
+      "finalScore": "Final Score: {{score}}",
+      "highScore": "High Score: {{score}}",
+      "startGame": "Start Game",
+      "playing": "Playing..."
+    },
+    "decorate": {
+      "name": "Decorate the Tree",
+      "description": "Drag and drop ornaments onto the tree",
+      "score": "Score",
+      "ornaments": "Ornaments",
+      "clickToPlace": "Click on the tree to place {{ornament}}",
+      "clearTree": "Clear Tree",
+      "saveTree": "Save Tree",
+      "treeSaved": "Tree saved! Score: {{score}}"
+    },
+    "sleigh": {
+      "name": "Santa Sleigh Ride",
+      "description": "Help Santa avoid obstacles",
+      "score": "Score",
+      "high": "High",
+      "crash": "Crash!",
+      "finalScore": "Final Score: {{score}}",
+      "instructions": "Use ↑ and ↓ arrow keys to move Santa",
+      "startGame": "Start Game",
+      "playing": "Playing..."
+    },
+    "stack": {
+      "name": "Candy Cane Stack",
+      "description": "Stack candy canes as high as you can",
+      "stack": "Stack",
+      "high": "High",
+      "collapsed": "Stack Collapsed!",
+      "finalHeight": "Final Height: {{height}}",
+      "score": "Score: {{score}}",
+      "instructions": "Click or press Space to drop the candy cane",
+      "startGame": "Start Game",
+      "drop": "Drop",
+      "playing": "Playing..."
+    },
+    "snowman": {
+      "name": "Build a Snowman",
+      "description": "Drag and drop parts to build your snowman",
+      "score": "Score",
+      "partsPlaced": "Parts Placed",
+      "availableParts": "Available Parts",
+      "selectPart": "Select a part from the right",
+      "clickToPlace": "Click to place {{part}}",
+      "congratulations": "🎉 Snowman Complete!",
+      "finalScore": "Final Score: {{score}}",
+      "resetSnowman": "Reset Snowman"
+    }
+  },
+  "quotes": {
+    "loading": "Loading quote..."
+  },
+  "menu": {
+    "year": "Year",
+    "settings": "Settings",
+    "games": "Games"
+  }
+}
