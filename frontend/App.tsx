@@ -17,6 +17,7 @@ import GiftPlanner from './components/GiftPlanner';
 import MiniMode from './components/MiniMode';
 import TrackSanta from './components/TrackSanta';
 import ViewCodeModal from './components/ViewCodeModal';
+import ThemeBuilder from './components/ThemeBuilder';
 import type { ColorTheme } from './lib/themes';
 import { themes } from './lib/themes';
 import { loadSettings, saveSettings } from './lib/storage';
@@ -66,6 +67,7 @@ export default function App() {
   const [showGiftPlanner, setShowGiftPlanner] = useState(false);
   const [showTrackSanta, setShowTrackSanta] = useState(false);
   const [showViewCode, setShowViewCode] = useState(false);
+  const [showThemeBuilder, setShowThemeBuilder] = useState(false);
   const [isChristmas, setIsChristmas] = useState(false);
   const [hasInteracted, setHasInteracted] = useState(false);
   const [isChristmasEve, setIsChristmasEve] = useState(false);
@@ -75,6 +77,24 @@ export default function App() {
 
   const theme = themes[selectedTheme];
   const effectiveTimezone = timezone === 'auto' ? getSystemTimezone() : timezone;
+
+  const activeTheme = selectedTheme === 'custom' 
+    ? (() => {
+        const saved = localStorage.getItem('activeCustomTheme');
+        if (saved) {
+          try {
+            const parsed = JSON.parse(saved);
+            return {
+              ...parsed,
+              gradient: '',
+            };
+          } catch {
+            return theme;
+          }
+        }
+        return theme;
+      })()
+    : theme;
 
   useEffect(() => {
     const checkMobile = () => {
@@ -203,9 +223,10 @@ export default function App() {
     <div className="dark min-h-screen relative overflow-hidden" style={appStyle}>
       <ColorBlindFilters />
       <div
-        className={`min-h-screen transition-all duration-1000 ${theme.gradient}`}
+        className={`min-h-screen transition-all duration-1000 ${activeTheme.gradient || theme.gradient}`}
         style={{
           filter: colorBlindMode !== 'none' ? `url(#${colorBlindMode}-filter)` : undefined,
+          background: selectedTheme === 'custom' && activeTheme.gradient !== '' ? activeTheme.gradient : undefined,
         }}
       >
         {!reducedMotion && snowIntensity > 0 && <Snowfall intensity={snowIntensity} theme={selectedTheme} />}
@@ -227,6 +248,7 @@ export default function App() {
                 onGamesClick={() => setShowGames(!showGames)}
                 onGiftPlannerClick={() => setShowGiftPlanner(!showGiftPlanner)}
                 onTrackSantaClick={() => setShowTrackSanta(!showTrackSanta)}
+                onThemeBuilderClick={() => setShowThemeBuilder(!showThemeBuilder)}
                 onViewCodeClick={() => setShowViewCode(true)}
                 isMobile={isMobile}
               />
@@ -243,6 +265,13 @@ export default function App() {
             ) : showTrackSanta && !isMobile ? (
               <div className="w-full max-w-7xl">
                 <TrackSanta />
+              </div>
+            ) : showThemeBuilder && !isMobile ? (
+              <div className="w-full max-w-4xl">
+                <ThemeBuilder 
+                  selectedTheme={selectedTheme}
+                  onThemeChange={setSelectedTheme}
+                />
               </div>
             ) : (
               <>

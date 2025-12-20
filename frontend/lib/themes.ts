@@ -1,4 +1,4 @@
-export type ColorTheme = 'classic' | 'winter' | 'royal' | 'candy' | 'golden' | 'icy' | 'forest' | 'sunset' | 'aurora';
+export type ColorTheme = 'classic' | 'winter' | 'royal' | 'candy' | 'golden' | 'icy' | 'forest' | 'sunset' | 'aurora' | 'custom';
 
 export interface Theme {
   gradient: string;
@@ -82,4 +82,26 @@ export const themes: Record<ColorTheme, Theme> = {
     progressStart: '#6366f1',
     progressEnd: '#ec4899',
   },
+  custom: {
+    gradient: 'bg-gradient-to-br from-red-900 via-green-900 to-red-900',
+    card: 'bg-red-500/20',
+    text: 'text-red-100',
+    sparkle: 'bg-yellow-300',
+    progressStart: '#ef4444',
+    progressEnd: '#22c55e',
+  },
+};
+
+export const getActiveTheme = (themeName: ColorTheme): Theme => {
+  if (themeName === 'custom') {
+    const savedTheme = localStorage.getItem('activeCustomTheme');
+    if (savedTheme) {
+      try {
+        return JSON.parse(savedTheme);
+      } catch {
+        return themes.classic;
+      }
+    }
+  }
+  return themes[themeName] || themes.classic;
 };

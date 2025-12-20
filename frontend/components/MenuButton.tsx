@@ -1,4 +1,4 @@
-import { Menu, Share2, Code, Gamepad2, Gift, MapPin } from 'lucide-react';
+import { Menu, Share2, Code, Gamepad2, Gift, MapPin, Palette } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
@@ -26,10 +26,11 @@ interface MenuButtonProps {
   onGiftPlannerClick?: () => void;
   onTrackSantaClick?: () => void;
   onViewCodeClick?: () => void;
+  onThemeBuilderClick?: () => void;
   isMobile?: boolean;
 }
 
-export default function MenuButton({ selectedYear, onYearChange, onSettingsClick, onGamesClick, onGiftPlannerClick, onTrackSantaClick, onViewCodeClick, isMobile }: MenuButtonProps) {
+export default function MenuButton({ selectedYear, onYearChange, onSettingsClick, onGamesClick, onGiftPlannerClick, onTrackSantaClick, onViewCodeClick, onThemeBuilderClick, isMobile }: MenuButtonProps) {
   const { toast } = useToast();
   const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
@@ -129,6 +130,12 @@ export default function MenuButton({ selectedYear, onYearChange, onSettingsClick
           <DropdownMenuItem onClick={onTrackSantaClick}>
             <MapPin className="w-4 h-4 mr-2" />
             Track Santa
+          </DropdownMenuItem>
+        )}
+        {onThemeBuilderClick && !isMobile && (
+          <DropdownMenuItem onClick={onThemeBuilderClick}>
+            <Palette className="w-4 h-4 mr-2" />
+            Theme Builder
           </DropdownMenuItem>
         )}
         <DropdownMenuItem onClick={handleShare}>

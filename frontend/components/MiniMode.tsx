@@ -27,7 +27,25 @@ export default function MiniMode({ selectedYear, onToggle, selectedTheme = 'clas
   const [isDragging, setIsDragging] = useState(false);
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
   
-  const theme = themes[selectedTheme];
+  const getTheme = () => {
+    if (selectedTheme === 'custom') {
+      const saved = localStorage.getItem('activeCustomTheme');
+      if (saved) {
+        try {
+          const parsed = JSON.parse(saved);
+          return {
+            gradient: '',
+            bgStyle: { background: parsed.gradient },
+          };
+        } catch {
+          return { gradient: themes.classic.gradient, bgStyle: {} };
+        }
+      }
+    }
+    return { gradient: themes[selectedTheme].gradient, bgStyle: {} };
+  };
+
+  const themeData = getTheme();
 
   useEffect(() => {
     const calculateTimeLeft = () => {
@@ -114,7 +132,7 @@ export default function MiniMode({ selectedYear, onToggle, selectedTheme = 'clas
       }}
       onMouseDown={handleMouseDown}
     >
-      <div className={`backdrop-blur-lg rounded-lg shadow-2xl border border-white/20 overflow-hidden ${theme.gradient}`}>
+      <div className={`backdrop-blur-lg rounded-lg shadow-2xl border border-white/20 overflow-hidden ${themeData.gradient}`} style={themeData.bgStyle}>
         {!isCollapsed ? (
           <div className="p-4 space-y-3 w-72">
             <div className="flex items-center justify-between">
@@ -168,6 +186,7 @@ export default function MiniMode({ selectedYear, onToggle, selectedTheme = 'clas
                     <SelectItem value="forest">Forest</SelectItem>
                     <SelectItem value="sunset">Sunset</SelectItem>
                     <SelectItem value="aurora">Aurora</SelectItem>
+                    <SelectItem value="custom">Custom</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

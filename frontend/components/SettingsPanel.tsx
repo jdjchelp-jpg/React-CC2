@@ -1,4 +1,4 @@
-import { Settings, Volume2, Snowflake, Palette, Music, Globe, Calendar, Eye, Accessibility, Type, Maximize, Volume, Zap, CalendarClock } from 'lucide-react';
+import { Settings, Volume2, Snowflake, Palette, Music, Globe, Calendar, Eye, Accessibility, Type, Maximize, Volume, Zap, CalendarClock, Key } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   Sheet,
@@ -131,6 +131,20 @@ export default function SettingsPanel({
 }: SettingsPanelProps) {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState<'general' | 'datetime' | 'accessibility' | 'display' | 'customdate'>('general');
+  const [santaSecretCode, setSantaSecretCode] = useState('');
+
+  const handleSecretCodeSubmit = () => {
+    if (santaSecretCode === '333') {
+      localStorage.setItem('santaTrackerSecretCode', '333');
+      alert('Santa Tracker preview mode enabled!');
+    }
+  };
+
+  const handleClearSecretCode = () => {
+    setSantaSecretCode('');
+    localStorage.removeItem('santaTrackerSecretCode');
+    alert('Secret codes cleared!');
+  };
   
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
@@ -208,6 +222,7 @@ export default function SettingsPanel({
                 <SelectItem value="forest">{t('themes.forest')}</SelectItem>
                 <SelectItem value="sunset">{t('themes.sunset')}</SelectItem>
                 <SelectItem value="aurora">{t('themes.aurora')}</SelectItem>
+                <SelectItem value="custom">Custom Theme</SelectItem>
               </SelectContent>
             </Select>
           </div>
@@ -286,6 +301,41 @@ export default function SettingsPanel({
               />
             </div>
           )}
+
+          <div className="space-y-3 border-t border-white/10 pt-6">
+            <Label className="flex items-center gap-2" htmlFor="secret-code">
+              <Key className="w-4 h-4" />
+              Secret Codes
+            </Label>
+            <div className="flex gap-2">
+              <input
+                id="secret-code"
+                type="text"
+                value={santaSecretCode}
+                onChange={(e) => setSantaSecretCode(e.target.value)}
+                placeholder="Enter secret code..."
+                className="flex-1 px-3 py-2 bg-background border border-input rounded-md text-sm"
+                maxLength={3}
+              />
+              <Button
+                size="sm"
+                onClick={handleSecretCodeSubmit}
+                className="whitespace-nowrap"
+              >
+                Apply
+              </Button>
+              <Button
+                size="sm"
+                variant="outline"
+                onClick={handleClearSecretCode}
+              >
+                Clear
+              </Button>
+            </div>
+            <p className="text-xs text-muted-foreground">
+              Enter secret codes to unlock hidden features. (e.g., 333 for Santa Tracker preview)
+            </p>
+          </div>
             </>
           )}
 

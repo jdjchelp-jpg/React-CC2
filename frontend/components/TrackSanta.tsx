@@ -259,7 +259,7 @@ export default function TrackSanta() {
   }
 
   return (
-    <div className="space-y-4" onKeyDown={handleSecretCodeInput} tabIndex={0}>
+    <div className="space-y-4">
       <Card className="p-4 bg-gradient-to-br from-red-600/30 to-green-700/30 border-4 border-yellow-400/70 backdrop-blur-md min-h-[600px]">
         <div className="flex items-center justify-between mb-2">
           <h2 className="text-2xl font-bold text-white flex items-center gap-2">
