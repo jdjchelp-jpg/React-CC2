@@ -63,8 +63,8 @@ export default function MiniMode({ selectedYear, onToggle, selectedTheme = 'clas
     
     setIsDragging(true);
     setDragOffset({
-      x: e.clientX - rect.left,
-      y: e.clientY - rect.top,
+      x: e.clientX - position.x,
+      y: e.clientY - position.y,
     });
   };
 

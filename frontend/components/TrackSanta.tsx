@@ -37,12 +37,22 @@ export default function TrackSanta() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [view3D, setView3D] = useState(false);
+  const [previewMode, setPreviewMode] = useState(false);
+  const [secretCode, setSecretCode] = useState('');
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstance = useRef<any>(null);
   const santaMarker = useRef<any>(null);
   const routeLine = useRef<any>(null);
 
   useEffect(() => {
+    const checkSecretCode = () => {
+      const saved = localStorage.getItem('santaTrackerSecretCode');
+      if (saved === '333') {
+        setPreviewMode(true);
+      }
+    };
+    checkSecretCode();
+
     fetchSantaInfo();
     const interval = setInterval(fetchSantaInfo, 10000);
     return () => clearInterval(interval);
@@ -187,7 +197,12 @@ export default function TrackSanta() {
   };
 
   const getTimeUntilTakeoff = () => {
-    if (!santaInfo) return '';
+    if (!santaInfo) return 'Loading...';
+    
+    if (previewMode) {
+      return 'Preview Mode Active';
+    }
+    
     const diff = santaInfo.takeoff - santaInfo.now;
     if (diff <= 0) return 'Santa is flying!';
     
@@ -204,7 +219,23 @@ export default function TrackSanta() {
     }
   };
 
-  const hasLaunched = santaInfo && santaInfo.now >= santaInfo.takeoff;
+  const hasLaunched = (santaInfo && santaInfo.now >= santaInfo.takeoff) || previewMode;
+
+  const handleSecretCodeInput = (e: React.KeyboardEvent) => {
+    const key = e.key;
+    if (key >= '0' && key <= '9') {
+      const newCode = (secretCode + key).slice(-3);
+      setSecretCode(newCode);
+      if (newCode === '333') {
+        localStorage.setItem('santaTrackerSecretCode', '333');
+        setPreviewMode(true);
+      }
+    } else if (key === 'Escape') {
+      setSecretCode('');
+      localStorage.removeItem('santaTrackerSecretCode');
+      setPreviewMode(false);
+    }
+  };
 
   if (loading) {
     return (
@@ -228,7 +259,7 @@ export default function TrackSanta() {
   }
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4" onKeyDown={handleSecretCodeInput} tabIndex={0}>
       <Card className="p-4 bg-gradient-to-br from-red-600/30 to-green-700/30 border-4 border-yellow-400/70 backdrop-blur-md min-h-[600px]">
         <div className="flex items-center justify-between mb-2">
           <h2 className="text-2xl font-bold text-white flex items-center gap-2">
