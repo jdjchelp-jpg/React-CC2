@@ -11,6 +11,9 @@ import CandyCaneStack from './games/CandyCaneStack';
 import GiftWrapper from './games/GiftWrapper';
 import ElfWorkshop from './games/ElfWorkshop';
 import BuildSnowman from './games/BuildSnowman';
+import ChristmasTrivia from './games/ChristmasTrivia';
+import Christmas2048 from './games/Christmas2048';
+import ChristmasWordSearch from './games/ChristmasWordSearch';
 
 interface Game {
   id: string;
@@ -76,6 +79,27 @@ const GAMES: Game[] = [
     description: 'Drag and drop parts to build your snowman',
     unlockDays: 45,
     component: BuildSnowman
+  },
+  {
+    id: 'trivia',
+    name: 'Christmas Trivia',
+    description: 'Test your Christmas knowledge',
+    unlockDays: 50,
+    component: ChristmasTrivia
+  },
+  {
+    id: '2048',
+    name: 'Christmas 2048',
+    description: 'Merge tiles to reach 2048',
+    unlockDays: 50,
+    component: Christmas2048
+  },
+  {
+    id: 'wordsearch',
+    name: 'Word Search',
+    description: 'Find hidden Christmas words',
+    unlockDays: 50,
+    component: ChristmasWordSearch
   }
 ];
 
