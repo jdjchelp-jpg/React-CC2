@@ -1,0 +1,7 @@
+# Encore configuration file
+# This tells Encore to generate client types in the backend directory
+# instead of the default root-level encore.gen directory.
+
+gen:
+  # Output directory for generated client code
+  output: backend/encore.gen

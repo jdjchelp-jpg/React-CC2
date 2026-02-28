@@ -15,5 +15,8 @@ export default defineConfig({
   mode: "development",
   build: {
     minify: false,
+    rollupOptions: {
+      external: ['leaflet'],
+    },
   }
 })
