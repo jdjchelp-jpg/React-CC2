@@ -1,0 +1,2 @@
+# Ignore the frontend directory - it's built separately with Vite
+frontend/

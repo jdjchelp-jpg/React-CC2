@@ -9,4 +9,4 @@ gen:
 # Exclude the frontend directory from Encore's build, as it's a separate
 # Vite-built SPA that should not be compiled by Encore.
 exclude:
-  - frontend
+  - frontend/**
