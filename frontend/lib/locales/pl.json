@@ -1,0 +1,176 @@
+{
+  "app": {
+    "title": "Bożonarodzeniowe Odliczanie",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "Dni",
+    "hours": "Godzin",
+    "minutes": "Minut",
+    "seconds": "Sekund",
+    "christmas": "To Boże Narodzenie! 🎄",
+    "yearProgress": "Postęp Roku do Bożego Narodzenia",
+    "daysLeft": "Pozostało Dni",
+    "yearComplete": "Ukończono {{percent}}% roku"
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "description": "Dostosuj swoje doświadczenie odliczania",
+    "colorTheme": "Motyw Kolorystyczny",
+    "snowIntensity": "Intensywność Śniegu",
+    "musicVolume": "Głośność Muzyki",
+    "customMusic": "Niestandardowy URL Muzyki",
+    "customMusicPlaceholder": "Wklej tutaj link audio JukeHost...",
+    "customMusicHelp": "Prześlij swoje audio na JukeHost.co.uk i wklej tutaj bezpośredni link",
+    "language": "Język",
+    "notifications": "Powiadomienia"
+  },
+  "themes": {
+    "classic": "Klasyczna Czerwień i Zieleń",
+    "winter": "Zimowy Niebieski i Biały",
+    "royal": "Królewski Fiolet i Złoto",
+    "candy": "Cukierek Różowy i Czerwony",
+    "golden": "Złota Elegancja",
+    "icy": "Lodowy Mróz",
+    "forest": "Leśna Zieleń",
+    "sunset": "Blask Zachodu Słońca",
+    "aurora": "Zorza Polarna"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
+  },
+  "notifications": {
+    "title": "Powiadomienia Push",
+    "enabled": "Włączone",
+    "disabled": "Wyłączone",
+    "blocked": "Powiadomienia są zablokowane. Włącz je w ustawieniach przeglądarki.",
+    "oneWeekLabel": "1 Tydzień Przed",
+    "oneWeekDefault": "🎄 Tylko 1 tydzień do Bożego Narodzenia!",
+    "threeDaysLabel": "3 Dni Przed",
+    "threeDaysDefault": "🎅 Tylko 3 dni do Bożego Narodzenia!",
+    "oneDayLabel": "1 Dzień Przed",
+    "oneDayDefault": "🎁 Jutro Boże Narodzenie!"
+  },
+  "games": {
+    "title": "Bożonarodzeniowe Mini-Gry",
+    "subtitle": "Gry odblokowują się wraz z zbliżaniem się Bożego Narodzenia!",
+    "playNow": "Graj Teraz",
+    "backToGames": "← Powrót do Gier",
+    "locked": "Zablokowane",
+    "unlocksIn": "Odblokuje się za {{days}} dni",
+    "memory": {
+      "name": "Gra Pamięciowa GIF",
+      "description": "Dopasuj pary bożonarodzeniowych emoji",
+      "moves": "Ruchy",
+      "pairs": "Pary",
+      "congratulations": "🎉 Gratulacje!",
+      "completedIn": "Ukończyłeś grę w {{moves}} ruchach!",
+      "score": "Wynik: {{score}}",
+      "newGame": "Nowa Gra"
+    },
+    "snowflakes": {
+      "name": "Złap Płatki Śniegu",
+      "description": "Klikaj na spadające płatki śniegu, aby zdobyć punkty",
+      "score": "Wynik",
+      "time": "Czas",
+      "gameOver": "Koniec Gry!",
+      "finalScore": "Wynik Końcowy: {{score}}",
+      "highScore": "Najlepszy Wynik: {{score}}",
+      "startGame": "Rozpocznij Grę",
+      "playing": "Granie..."
+    },
+    "decorate": {
+      "name": "Udekoruj Choinkę",
+      "description": "Przeciągnij i upuść ozdoby na choinkę",
+      "score": "Wynik",
+      "ornaments": "Ozdoby",
+      "clickToPlace": "Kliknij na choinkę, aby umieścić {{ornament}}",
+      "clearTree": "Wyczyść Choinkę",
+      "saveTree": "Zapisz Choinkę",
+      "treeSaved": "Choinka zapisana! Wynik: {{score}}"
+    },
+    "sleigh": {
+      "name": "Przejażdżka Saniami Świętego Mikołaja",
+      "description": "Pomóż Mikołajowi unikać przeszkód",
+      "score": "Wynik",
+      "high": "Najlepszy",
+      "crash": "Wypadek!",
+      "finalScore": "Wynik Końcowy: {{score}}",
+      "instructions": "Użyj strzałek ↑ i ↓, aby poruszać Mikołajem",
+      "startGame": "Rozpocznij Grę",
+      "playing": "Granie..."
+    },
+    "stack": {
+      "name": "Stos Lasek Cukrowych",
+      "description": "Układaj laski cukrowe tak wysoko, jak potrafisz",
+      "stack": "Stos",
+      "high": "Najlepszy",
+      "collapsed": "Stos się zawalił!",
+      "finalHeight": "Wysokość Końcowa: {{height}}",
+      "score": "Wynik: {{score}}",
+      "instructions": "Kliknij lub naciśnij Spację, aby upuścić laskę cukrową",
+      "startGame": "Rozpocznij Grę",
+      "drop": "Upuść",
+      "playing": "Granie..."
+    },
+    "snowman": {
+      "name": "Zbuduj Bałwana",
+      "description": "Przeciągnij i upuść części, aby zbudować swojego bałwana",
+      "score": "Wynik",
+      "partsPlaced": "Umieszczone Części",
+      "availableParts": "Dostępne Części",
+      "selectPart": "Wybierz część z prawej strony",
+      "clickToPlace": "Kliknij, aby umieścić {{part}}",
+      "congratulations": "🎉 Bałwan Ukończony!",
+      "finalScore": "Wynik Końcowy: {{score}}",
+      "resetSnowman": "Resetuj Bałwana"
+    }
+  },
+  "quotes": {
+    "loading": "Ładowanie cytatu..."
+  },
+  "menu": {
+    "year": "Rok",
+    "settings": "Ustawienia",
+    "games": "Gry"
+  },
+  "events": {
+    "title": "Wydarzenia Świąteczne",
+    "selectEvent": "Wybierz wydarzenie świąteczne",
+    "none": "Brak (Boże Narodzenie)",
+    "daysUntil": "{{days}} dni",
+    "christmas": "Boże Narodzenie",
+    "diwali": "Diwali",
+    "easter": "Wielkanoc",
+    "eid_al_fitr": "Eid al-Fitr",
+    "fourth_of_july": "4 Lipca",
+    "halloween": "Halloween",
+    "hanukkah": "Chanuka",
+    "new_year": "Nowy Rok",
+    "st_patricks_day": "Dzień Świętego Patryka",
+    "thanksgiving": "Święto Dziękczynienia",
+    "valentines_day": "Walentynki"
+  }
+}

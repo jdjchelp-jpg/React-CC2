@@ -1,0 +1,176 @@
+{
+  "app": {
+    "title": "นับถอยหลังคริสต์มาส",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "วัน",
+    "hours": "ชั่วโมง",
+    "minutes": "นาที",
+    "seconds": "วินาที",
+    "christmas": "สุขสันต์วันคริสต์มาส! 🎄",
+    "yearProgress": "ความก้าวหน้าปีสู่คริสต์มาส",
+    "daysLeft": "วันที่เหลือ",
+    "yearComplete": "{{percent}}% ของปีเสร็จสมบูรณ์"
+  },
+  "settings": {
+    "title": "การตั้งค่า",
+    "description": "ปรับแต่งประสบการณ์นับถอยหลังของคุณ",
+    "colorTheme": "ธีมสี",
+    "snowIntensity": "ความแรงของหิมะ",
+    "musicVolume": "ระดับเสียงเพลง",
+    "customMusic": "URL เพลงที่กำหนดเอง",
+    "customMusicPlaceholder": "วางลิงก์เสียง JukeHost ที่นี่...",
+    "customMusicHelp": "อัปโหลดเสียงของคุณไปที่ JukeHost.co.uk และวางลิงก์โดยตรงที่นี่",
+    "language": "ภาษา",
+    "notifications": "การแจ้งเตือน"
+  },
+  "themes": {
+    "classic": "แดงและเขียวคลาสสิก",
+    "winter": "ฟ้าและขาวฤดูหนาว",
+    "royal": "ม่วงและทองพระราชา",
+    "candy": "ชมพูและแดงลูกอม",
+    "golden": "สง่างามสีทอง",
+    "icy": "น้ำค้างแข็ง",
+    "forest": "เขียวป่า",
+    "sunset": "แสงอาทิตย์อัสดง",
+    "aurora": "แสงเหนือ"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
+  },
+  "notifications": {
+    "title": "การแจ้งเตือนแบบพุช",
+    "enabled": "เปิดใช้งาน",
+    "disabled": "ปิดใช้งาน",
+    "blocked": "การแจ้งเตือนถูกบล็อก กรุณาเปิดใช้งานในการตั้งค่าเบราว์เซอร์",
+    "oneWeekLabel": "1 สัปดาห์ก่อน",
+    "oneWeekDefault": "🎄 เหลืออีกแค่ 1 สัปดาห์ถึงคริสต์มาส!",
+    "threeDaysLabel": "3 วันก่อน",
+    "threeDaysDefault": "🎅 เหลืออีกแค่ 3 วันถึงคริสต์มาส!",
+    "oneDayLabel": "1 วันก่อน",
+    "oneDayDefault": "🎁 พรุ่งนี้วันคริสต์มาส!"
+  },
+  "games": {
+    "title": "เกมคริสต์มาสจิ๋ว",
+    "subtitle": "เกมจะปลดล็อคเมื่อคริสต์มาสใกล้เข้ามา!",
+    "playNow": "เล่นเลย",
+    "backToGames": "← กลับไปเกม",
+    "locked": "ล็อค",
+    "unlocksIn": "ปลดล็อคใน {{days}} วัน",
+    "memory": {
+      "name": "เกมความจำ GIF",
+      "description": "จับคู่อีโมจิคริสต์มาส",
+      "moves": "การเคลื่อนที่",
+      "pairs": "คู่",
+      "congratulations": "🎉 ยินดีด้วย!",
+      "completedIn": "คุณทำเกมสำเร็จใน {{moves}} การเคลื่อนที่!",
+      "score": "คะแนน: {{score}}",
+      "newGame": "เกมใหม่"
+    },
+    "snowflakes": {
+      "name": "จับเกล็ดหิมะ",
+      "description": "คลิกที่เกล็ดหิมะที่ตกลงมาเพื่อรับคะแนน",
+      "score": "คะแนน",
+      "time": "เวลา",
+      "gameOver": "จบเกม!",
+      "finalScore": "คะแนนสุดท้าย: {{score}}",
+      "highScore": "คะแนนสูงสุด: {{score}}",
+      "startGame": "เริ่มเกม",
+      "playing": "กำลังเล่น..."
+    },
+    "decorate": {
+      "name": "ตกแต่งต้นคริสต์มาส",
+      "description": "ลากและวางเครื่องประดับบนต้นไม้",
+      "score": "คะแนน",
+      "ornaments": "เครื่องประดับ",
+      "clickToPlace": "คลิกที่ต้นไม้เพื่อวาง {{ornament}}",
+      "clearTree": "ล้างต้นไม้",
+      "saveTree": "บันทึกต้นไม้",
+      "treeSaved": "บันทึกต้นไม้แล้ว! คะแนน: {{score}}"
+    },
+    "sleigh": {
+      "name": "นั่งเลื่อนของซานต้า",
+      "description": "ช่วยซานต้าหลบสิ่งกีดขวาง",
+      "score": "คะแนน",
+      "high": "สูงสุด",
+      "crash": "ชน!",
+      "finalScore": "คะแนนสุดท้าย: {{score}}",
+      "instructions": "ใช้ปุ่มลูกศร ↑ และ ↓ เพื่อเคลื่อนย้ายซานต้า",
+      "startGame": "เริ่มเกม",
+      "playing": "กำลังเล่น..."
+    },
+    "stack": {
+      "name": "ซ้อนอ้อยหวาน",
+      "description": "ซ้อนอ้อยหวานให้สูงที่สุดเท่าที่จะทำได้",
+      "stack": "กอง",
+      "high": "สูงสุด",
+      "collapsed": "กองล้ม!",
+      "finalHeight": "ความสูงสุดท้าย: {{height}}",
+      "score": "คะแนน: {{score}}",
+      "instructions": "คลิกหรือกด Space เพื่อปล่อยอ้อยหวาน",
+      "startGame": "เริ่มเกม",
+      "drop": "ปล่อย",
+      "playing": "กำลังเล่น..."
+    },
+    "snowman": {
+      "name": "สร้างตุ๊กตาหิมะ",
+      "description": "ลากและวางชิ้นส่วนเพื่อสร้างตุ๊กตาหิมะ",
+      "score": "คะแนน",
+      "partsPlaced": "ชิ้นส่วนที่วาง",
+      "availableParts": "ชิ้นส่วนที่มี",
+      "selectPart": "เลือกชิ้นส่วนจากด้านขวา",
+      "clickToPlace": "คลิกเพื่อวาง {{part}}",
+      "congratulations": "🎉 ตุ๊กตาหิมะเสร็จสมบูรณ์!",
+      "finalScore": "คะแนนสุดท้าย: {{score}}",
+      "resetSnowman": "รีเซ็ตตุ๊กตาหิมะ"
+    }
+  },
+  "quotes": {
+    "loading": "กำลังโหลดคำคม..."
+  },
+  "menu": {
+    "year": "ปี",
+    "settings": "การตั้งค่า",
+    "games": "เกม"
+  },
+  "events": {
+    "title": "กิจกรรมวันหยุด",
+    "selectEvent": "เลือกกิจกรรมวันหยุด",
+    "none": "ไม่มี (คริสต์มาส)",
+    "daysUntil": "{{days}} วัน",
+    "christmas": "คริสต์มาส",
+    "diwali": "ดีวาลี",
+    "easter": "อีสเตอร์",
+    "eid_al_fitr": "อีดอัลฟิฏร์",
+    "fourth_of_july": "4 กรกฎาคม",
+    "halloween": "ฮาโลวีน",
+    "hanukkah": "ฮานุกกาห์",
+    "new_year": "ปีใหม่",
+    "st_patricks_day": "วันเซนต์แพทริก",
+    "thanksgiving": "วันขอบคุณพระเจ้า",
+    "valentines_day": "วันวาเลนไทน์"
+  }
+}

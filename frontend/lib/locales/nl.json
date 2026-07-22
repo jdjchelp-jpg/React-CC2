@@ -40,7 +40,26 @@
     "en": "English",
     "es": "Español",
     "fr": "Français",
-    "nl": "Nederlands"
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
   },
   "notifications": {
     "title": "Push Meldingen",
@@ -136,5 +155,22 @@
     "year": "Jaar",
     "settings": "Instellingen",
     "games": "Spelletjes"
+  },
+  "events": {
+    "title": "Feestelijke Evenementen",
+    "selectEvent": "Selecteer een feestelijk evenement",
+    "none": "Geen (Kerstmis)",
+    "daysUntil": "{{days}} dagen",
+    "christmas": "Kerstmis",
+    "diwali": "Diwali",
+    "easter": "Pasen",
+    "eid_al_fitr": "Eid al-Fitr",
+    "fourth_of_july": "4 juli",
+    "halloween": "Halloween",
+    "hanukkah": "Chanoeka",
+    "new_year": "Nieuwjaar",
+    "st_patricks_day": "St. Patrick's Day",
+    "thanksgiving": "Thanksgiving",
+    "valentines_day": "Valentijnsdag"
   }
 }

@@ -1,0 +1,176 @@
+{
+  "app": {
+    "title": "क्रिसमस काउंटडाउन",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "दिन",
+    "hours": "घंटे",
+    "minutes": "मिनट",
+    "seconds": "सेकंड",
+    "christmas": "क्रिसमस है! 🎄",
+    "yearProgress": "क्रिसमस तक वर्ष की प्रगति",
+    "daysLeft": "शेष दिन",
+    "yearComplete": "{{percent}}% वर्ष पूरा"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "description": "अपने काउंटडाउन अनुभव को अनुकूलित करें",
+    "colorTheme": "रंग थीम",
+    "snowIntensity": "बर्फ की तीव्रता",
+    "musicVolume": "संगीत वॉल्यूम",
+    "customMusic": "कस्टम संगीत URL",
+    "customMusicPlaceholder": "यहाँ JukeHost ऑडियो लिंक पेस्ट करें...",
+    "customMusicHelp": "JukeHost.co.uk पर अपना ऑडियो अपलोड करें और सीधा लिंक यहाँ पेस्ट करें",
+    "language": "भाषा",
+    "notifications": "सूचनाएं"
+  },
+  "themes": {
+    "classic": "क्लासिक लाल और हरा",
+    "winter": "सर्दियों का नीला और सफेद",
+    "royal": "रॉयल बैंगनी और सुनहरा",
+    "candy": "कैंडी गुलाबी और लाल",
+    "golden": "सुनहरी शान",
+    "icy": "बर्फीला ठंडा",
+    "forest": "जंगल हरा",
+    "sunset": "सूर्यास्त की चमक",
+    "aurora": "अरोरा बोरेलिस"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
+  },
+  "notifications": {
+    "title": "पुश सूचनाएं",
+    "enabled": "सक्षम",
+    "disabled": "अक्षम",
+    "blocked": "सूचनाएं अवरुद्ध हैं। कृपया अपनी ब्राउज़र सेटिंग्स में उन्हें सक्षम करें।",
+    "oneWeekLabel": "1 सप्ताह पहले",
+    "oneWeekDefault": "🎄 क्रिसमस में सिर्फ 1 सप्ताह बचा!",
+    "threeDaysLabel": "3 दिन पहले",
+    "threeDaysDefault": "🎅 क्रिसमस में सिर्फ 3 दिन बचे!",
+    "oneDayLabel": "1 दिन पहले",
+    "oneDayDefault": "🎁 कल क्रिसमस है!"
+  },
+  "games": {
+    "title": "क्रिसमस मिनी-गेम्स",
+    "subtitle": "क्रिसमस के करीब आने पर गेम अनलॉक होते हैं!",
+    "playNow": "अब खेलें",
+    "backToGames": "← गेम्स पर वापस",
+    "locked": "लॉक",
+    "unlocksIn": "{{days}} दिनों में अनलॉक",
+    "memory": {
+      "name": "मेमोरी GIF गेम",
+      "description": "क्रिसमस इमोजी के जोड़े मिलाएं",
+      "moves": "चाल",
+      "pairs": "जोड़े",
+      "congratulations": "🎉 बधाई हो!",
+      "completedIn": "आपने {{moves}} चालों में गेम पूरा किया!",
+      "score": "स्कोर: {{score}}",
+      "newGame": "नया गेम"
+    },
+    "snowflakes": {
+      "name": "बर्फ के टुकड़े पकड़ें",
+      "description": "अंक पाने के लिए गिरते बर्फ के टुकड़ों पर क्लिक करें",
+      "score": "स्कोर",
+      "time": "समय",
+      "gameOver": "खेल खत्म!",
+      "finalScore": "अंतिम स्कोर: {{score}}",
+      "highScore": "उच्च स्कोर: {{score}}",
+      "startGame": "खेल शुरू करें",
+      "playing": "खेल रहे हैं..."
+    },
+    "decorate": {
+      "name": "पेड़ को सजाएं",
+      "description": "पेड़ पर सजावट को खींचकर छोड़ें",
+      "score": "स्कोर",
+      "ornaments": "सजावट",
+      "clickToPlace": "{{ornament}} रखने के लिए पेड़ पर क्लिक करें",
+      "clearTree": "पेड़ साफ़ करें",
+      "saveTree": "पेड़ सहेजें",
+      "treeSaved": "पेड़ सहेजा गया! स्कोर: {{score}}"
+    },
+    "sleigh": {
+      "name": "सांता की स्लेज राइड",
+      "description": "सांता को बाधाओं से बचने में मदद करें",
+      "score": "स्कोर",
+      "high": "उच्च",
+      "crash": "दुर्घटना!",
+      "finalScore": "अंतिम स्कोर: {{score}}",
+      "instructions": "सांता को हिलाने के लिए ↑ और ↓ तीर कुंजियों का उपयोग करें",
+      "startGame": "खेल शुरू करें",
+      "playing": "खेल रहे हैं..."
+    },
+    "stack": {
+      "name": "कैंडी केन स्टैक",
+      "description": "कैंडी केन को जितना हो सके उतना ऊंचा स्टैक करें",
+      "stack": "स्टैक",
+      "high": "उच्च",
+      "collapsed": "स्टैक गिर गया!",
+      "finalHeight": "अंतिम ऊंचाई: {{height}}",
+      "score": "स्कोर: {{score}}",
+      "instructions": "कैंडी केन गिराने के लिए क्लिक करें या स्पेस दबाएं",
+      "startGame": "खेल शुरू करें",
+      "drop": "गिराएं",
+      "playing": "खेल रहे हैं..."
+    },
+    "snowman": {
+      "name": "स्नोमैन बनाएं",
+      "description": "अपना स्नोमैन बनाने के लिए भागों को खींचकर छोड़ें",
+      "score": "स्कोर",
+      "partsPlaced": "भाग रखे गए",
+      "availableParts": "उपलब्ध भाग",
+      "selectPart": "दाईं ओर से एक भाग चुनें",
+      "clickToPlace": "{{part}} रखने के लिए क्लिक करें",
+      "congratulations": "🎉 स्नोमैन पूरा!",
+      "finalScore": "अंतिम स्कोर: {{score}}",
+      "resetSnowman": "स्नोमैन रीसेट करें"
+    }
+  },
+  "quotes": {
+    "loading": "उद्धरण लोड हो रहा है..."
+  },
+  "menu": {
+    "year": "वर्ष",
+    "settings": "सेटिंग्स",
+    "games": "खेल"
+  },
+  "events": {
+    "title": "छुट्टियों के कार्यक्रम",
+    "selectEvent": "एक छुट्टी कार्यक्रम चुनें",
+    "none": "कोई नहीं (क्रिसमस)",
+    "daysUntil": "{{days}} दिन",
+    "christmas": "क्रिसमस",
+    "diwali": "दिवाली",
+    "easter": "ईस्टर",
+    "eid_al_fitr": "ईद अल-फितर",
+    "fourth_of_july": "4 जुलाई",
+    "halloween": "हैलोवीन",
+    "hanukkah": "हनुक्का",
+    "new_year": "नया साल",
+    "st_patricks_day": "सेंट पैट्रिक दिवस",
+    "thanksgiving": "थैंक्सगिविंग",
+    "valentines_day": "वेलेंटाइन दिवस"
+  }
+}

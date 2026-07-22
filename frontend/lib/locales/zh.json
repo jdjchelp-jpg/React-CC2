@@ -1,0 +1,176 @@
+{
+  "app": {
+    "title": "圣诞倒计时",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "天",
+    "hours": "小时",
+    "minutes": "分钟",
+    "seconds": "秒",
+    "christmas": "圣诞节快乐！🎄",
+    "yearProgress": "距离圣诞节的年度进度",
+    "daysLeft": "剩余天数",
+    "yearComplete": "已完成{{percent}}%"
+  },
+  "settings": {
+    "title": "设置",
+    "description": "自定义您的倒计时体验",
+    "colorTheme": "颜色主题",
+    "snowIntensity": "雪花强度",
+    "musicVolume": "音乐音量",
+    "customMusic": "自定义音乐网址",
+    "customMusicPlaceholder": "在此粘贴JukeHost音频链接...",
+    "customMusicHelp": "将您的音频上传到JukeHost.co.uk，然后将直接链接粘贴在此处",
+    "language": "语言",
+    "notifications": "通知"
+  },
+  "themes": {
+    "classic": "经典红绿",
+    "winter": "冬日蓝白",
+    "royal": "皇家紫金",
+    "candy": "糖果粉红",
+    "golden": "金色优雅",
+    "icy": "冰霜",
+    "forest": "森林绿",
+    "sunset": "落日余晖",
+    "aurora": "极光"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
+  },
+  "notifications": {
+    "title": "推送通知",
+    "enabled": "已启用",
+    "disabled": "已禁用",
+    "blocked": "通知已被阻止。请在浏览器设置中启用。",
+    "oneWeekLabel": "提前1周",
+    "oneWeekDefault": "🎄 距离圣诞节只有1周了！",
+    "threeDaysLabel": "提前3天",
+    "threeDaysDefault": "🎅 距离圣诞节只有3天了！",
+    "oneDayLabel": "提前1天",
+    "oneDayDefault": "🎁 明天就是圣诞节了！"
+  },
+  "games": {
+    "title": "圣诞小游戏",
+    "subtitle": "随着圣诞节的临近，游戏将解锁！",
+    "playNow": "立即游玩",
+    "backToGames": "← 返回游戏",
+    "locked": "已锁定",
+    "unlocksIn": "{{days}}天后解锁",
+    "memory": {
+      "name": "记忆GIF游戏",
+      "description": "匹配成对的圣诞表情符号",
+      "moves": "步数",
+      "pairs": "配对",
+      "congratulations": "🎉 恭喜！",
+      "completedIn": "您用了{{moves}}步完成了游戏！",
+      "score": "得分: {{score}}",
+      "newGame": "新游戏"
+    },
+    "snowflakes": {
+      "name": "接住雪花",
+      "description": "点击落下的雪花来得分",
+      "score": "得分",
+      "time": "时间",
+      "gameOver": "游戏结束！",
+      "finalScore": "最终得分: {{score}}",
+      "highScore": "最高分: {{score}}",
+      "startGame": "开始游戏",
+      "playing": "游戏中..."
+    },
+    "decorate": {
+      "name": "装饰圣诞树",
+      "description": "拖放装饰品到树上",
+      "score": "得分",
+      "ornaments": "装饰品",
+      "clickToPlace": "点击树来放置{{ornament}}",
+      "clearTree": "清空树",
+      "saveTree": "保存树",
+      "treeSaved": "树已保存！得分: {{score}}"
+    },
+    "sleigh": {
+      "name": "圣诞老人雪橇之旅",
+      "description": "帮助圣诞老人避开障碍物",
+      "score": "得分",
+      "high": "最高",
+      "crash": "撞车！",
+      "finalScore": "最终得分: {{score}}",
+      "instructions": "使用↑和↓箭头键移动圣诞老人",
+      "startGame": "开始游戏",
+      "playing": "游戏中..."
+    },
+    "stack": {
+      "name": "拐杖糖堆叠",
+      "description": "尽可能高地堆叠拐杖糖",
+      "stack": "堆叠",
+      "high": "最高",
+      "collapsed": "堆叠倒塌！",
+      "finalHeight": "最终高度: {{height}}",
+      "score": "得分: {{score}}",
+      "instructions": "点击或按空格键放下拐杖糖",
+      "startGame": "开始游戏",
+      "drop": "放下",
+      "playing": "游戏中..."
+    },
+    "snowman": {
+      "name": "堆雪人",
+      "description": "拖放部件来搭建你的雪人",
+      "score": "得分",
+      "partsPlaced": "已放置部件",
+      "availableParts": "可用部件",
+      "selectPart": "从右侧选择一个部件",
+      "clickToPlace": "点击放置{{part}}",
+      "congratulations": "🎉 雪人完成！",
+      "finalScore": "最终得分: {{score}}",
+      "resetSnowman": "重置雪人"
+    }
+  },
+  "quotes": {
+    "loading": "加载名言..."
+  },
+  "menu": {
+    "year": "年份",
+    "settings": "设置",
+    "games": "游戏"
+  },
+  "events": {
+    "title": "节日活动",
+    "selectEvent": "选择一个节日活动",
+    "none": "无（圣诞节）",
+    "daysUntil": "{{days}}天后",
+    "christmas": "圣诞节",
+    "diwali": "排灯节",
+    "easter": "复活节",
+    "eid_al_fitr": "开斋节",
+    "fourth_of_july": "美国独立日",
+    "halloween": "万圣节",
+    "hanukkah": "光明节",
+    "new_year": "新年",
+    "st_patricks_day": "圣帕特里克节",
+    "thanksgiving": "感恩节",
+    "valentines_day": "情人节"
+  }
+}

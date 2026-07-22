@@ -1,0 +1,176 @@
+{
+  "app": {
+    "title": "クリスマスカウントダウン",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "日",
+    "hours": "時間",
+    "minutes": "分",
+    "seconds": "秒",
+    "christmas": "メリークリスマス！🎄",
+    "yearProgress": "クリスマスまでの年間進捗",
+    "daysLeft": "残り日数",
+    "yearComplete": "年の{{percent}}%が経過"
+  },
+  "settings": {
+    "title": "設定",
+    "description": "カウントダウン体験をカスタマイズ",
+    "colorTheme": "カラーテーマ",
+    "snowIntensity": "雪の強さ",
+    "musicVolume": "音楽の音量",
+    "customMusic": "カスタム音楽URL",
+    "customMusicPlaceholder": "JukeHostのオーディオリンクをここに貼り付け...",
+    "customMusicHelp": "JukeHost.co.ukに音声をアップロードし、直接リンクをここに貼り付け",
+    "language": "言語",
+    "notifications": "通知"
+  },
+  "themes": {
+    "classic": "クラシック赤＆緑",
+    "winter": "冬の青＆白",
+    "royal": "ロイヤル紫＆金",
+    "candy": "キャンディーピンク＆赤",
+    "golden": "ゴールデンエレガンス",
+    "icy": "アイシーフロスト",
+    "forest": "フォレストグリーン",
+    "sunset": "サンセットグロー",
+    "aurora": "オーロラ"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
+  },
+  "notifications": {
+    "title": "プッシュ通知",
+    "enabled": "有効",
+    "disabled": "無効",
+    "blocked": "通知がブロックされています。ブラウザ設定で有効にしてください。",
+    "oneWeekLabel": "1週間前",
+    "oneWeekDefault": "🎄 クリスマスまであと1週間！",
+    "threeDaysLabel": "3日前",
+    "threeDaysDefault": "🎅 クリスマスまであと3日！",
+    "oneDayLabel": "1日前",
+    "oneDayDefault": "🎁 明日はクリスマス！"
+  },
+  "games": {
+    "title": "クリスマスミニゲーム",
+    "subtitle": "クリスマスが近づくとゲームがアンロックされます！",
+    "playNow": "プレイ",
+    "backToGames": "← ゲームに戻る",
+    "locked": "ロック中",
+    "unlocksIn": "あと{{days}}日でアンロック",
+    "memory": {
+      "name": "メモリーGIFゲーム",
+      "description": "クリスマス絵文字のペアをマッチ",
+      "moves": "手数",
+      "pairs": "ペア",
+      "congratulations": "🎉 おめでとう！",
+      "completedIn": "{{moves}}手でゲームをクリア！",
+      "score": "スコア: {{score}}",
+      "newGame": "新しいゲーム"
+    },
+    "snowflakes": {
+      "name": "雪の結晶をキャッチ",
+      "description": "落ちてくる雪の結晶をクリックして得点",
+      "score": "スコア",
+      "time": "時間",
+      "gameOver": "ゲームオーバー！",
+      "finalScore": "最終スコア: {{score}}",
+      "highScore": "最高スコア: {{score}}",
+      "startGame": "ゲーム開始",
+      "playing": "プレイ中..."
+    },
+    "decorate": {
+      "name": "ツリーを飾ろう",
+      "description": "ドラッグ＆ドロップでツリーに飾りを付けよう",
+      "score": "スコア",
+      "ornaments": "飾り",
+      "clickToPlace": "ツリーをクリックして{{ornament}}を配置",
+      "clearTree": "ツリーをクリア",
+      "saveTree": "ツリーを保存",
+      "treeSaved": "ツリーを保存しました！スコア: {{score}}"
+    },
+    "sleigh": {
+      "name": "サンタのそり旅",
+      "description": "サンタを助けて障害物を避けよう",
+      "score": "スコア",
+      "high": "最高",
+      "crash": "クラッシュ！",
+      "finalScore": "最終スコア: {{score}}",
+      "instructions": "↑ ↓ 矢印キーでサンタを操作",
+      "startGame": "ゲーム開始",
+      "playing": "プレイ中..."
+    },
+    "stack": {
+      "name": "キャンディケインスタック",
+      "description": "キャンディケインをできるだけ高く積み上げよう",
+      "stack": "スタック",
+      "high": "最高",
+      "collapsed": "スタックが崩れた！",
+      "finalHeight": "最終の高さ: {{height}}",
+      "score": "スコア: {{score}}",
+      "instructions": "クリックかスペースキーでキャンディケインを落とす",
+      "startGame": "ゲーム開始",
+      "drop": "落とす",
+      "playing": "プレイ中..."
+    },
+    "snowman": {
+      "name": "雪だるまを作ろう",
+      "description": "ドラッグ＆ドロップで雪だるまを組み立てよう",
+      "score": "スコア",
+      "partsPlaced": "配置したパーツ",
+      "availableParts": "利用可能なパーツ",
+      "selectPart": "右側からパーツを選択",
+      "clickToPlace": "クリックして{{part}}を配置",
+      "congratulations": "🎉 雪だるま完成！",
+      "finalScore": "最終スコア: {{score}}",
+      "resetSnowman": "雪だるまをリセット"
+    }
+  },
+  "quotes": {
+    "loading": "引用を読み込み中..."
+  },
+  "menu": {
+    "year": "年",
+    "settings": "設定",
+    "games": "ゲーム"
+  },
+  "events": {
+    "title": "ホリデーイベント",
+    "selectEvent": "ホリデーイベントを選択",
+    "none": "なし（クリスマス）",
+    "daysUntil": "あと{{days}}日",
+    "christmas": "クリスマス",
+    "diwali": "ディワリ",
+    "easter": "イースター",
+    "eid_al_fitr": "イード・アル＝フィトル",
+    "fourth_of_july": "独立記念日",
+    "halloween": "ハロウィン",
+    "hanukkah": "ハヌカー",
+    "new_year": "新年",
+    "st_patricks_day": "セントパトリックデー",
+    "thanksgiving": "感謝祭",
+    "valentines_day": "バレンタインデー"
+  }
+}

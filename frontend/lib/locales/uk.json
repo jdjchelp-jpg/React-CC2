@@ -1,0 +1,176 @@
+{
+  "app": {
+    "title": "Різдвяний відлік",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "Днів",
+    "hours": "Годин",
+    "minutes": "Хвилин",
+    "seconds": "Секунд",
+    "christmas": "Це Різдво! 🎄",
+    "yearProgress": "Річний прогрес до Різдва",
+    "daysLeft": "Залишилось днів",
+    "yearComplete": "{{percent}}% року завершено"
+  },
+  "settings": {
+    "title": "Налаштування",
+    "description": "Налаштуйте свій досвід відліку",
+    "colorTheme": "Кольорова тема",
+    "snowIntensity": "Інтенсивність снігу",
+    "musicVolume": "Гучність музики",
+    "customMusic": "URL власної музики",
+    "customMusicPlaceholder": "Вставте посилання JukeHost тут...",
+    "customMusicHelp": "Завантажте аудіо на JukeHost.co.uk і вставте пряме посилання тут",
+    "language": "Мова",
+    "notifications": "Сповіщення"
+  },
+  "themes": {
+    "classic": "Класичний червоний та зелений",
+    "winter": "Зимовий синій та білий",
+    "royal": "Королівський фіолетовий та золотий",
+    "candy": "Цукерковий рожевий та червоний",
+    "golden": "Золота елегантність",
+    "icy": "Льодяний мороз",
+    "forest": "Лісовий зелений",
+    "sunset": "Західне сяйво",
+    "aurora": "Північне сяйво"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
+  },
+  "notifications": {
+    "title": "Push-сповіщення",
+    "enabled": "Увімкнено",
+    "disabled": "Вимкнено",
+    "blocked": "Сповіщення заблоковано. Увімкніть їх у налаштуваннях браузера.",
+    "oneWeekLabel": "За 1 тиждень",
+    "oneWeekDefault": "🎄 Залишився 1 тиждень до Різдва!",
+    "threeDaysLabel": "За 3 дні",
+    "threeDaysDefault": "🎅 Залишилося 3 дні до Різдва!",
+    "oneDayLabel": "За 1 день",
+    "oneDayDefault": "🎁 Завтра Різдво!"
+  },
+  "games": {
+    "title": "Різдвяні міні-ігри",
+    "subtitle": "Ігри відкриваються з наближенням Різдва!",
+    "playNow": "Грати зараз",
+    "backToGames": "← Назад до ігор",
+    "locked": "Заблоковано",
+    "unlocksIn": "Відкриється через {{days}} днів",
+    "memory": {
+      "name": "Гра на пам'ять GIF",
+      "description": "Знайдіть пари різдвяних емодзі",
+      "moves": "Ходи",
+      "pairs": "Пари",
+      "congratulations": "🎉 Вітаємо!",
+      "completedIn": "Ви завершили гру за {{moves}} ходів!",
+      "score": "Рахунок: {{score}}",
+      "newGame": "Нова гра"
+    },
+    "snowflakes": {
+      "name": "Лови сніжинки",
+      "description": "Клацайте на падаючі сніжинки, щоб набрати очки",
+      "score": "Рахунок",
+      "time": "Час",
+      "gameOver": "Гру завершено!",
+      "finalScore": "Фінальний рахунок: {{score}}",
+      "highScore": "Рекорд: {{score}}",
+      "startGame": "Почати гру",
+      "playing": "Граємо..."
+    },
+    "decorate": {
+      "name": "Прикрась ялинку",
+      "description": "Перетягуйте прикраси на ялинку",
+      "score": "Рахунок",
+      "ornaments": "Прикраси",
+      "clickToPlace": "Клацніть на ялинку, щоб розмістити {{ornament}}",
+      "clearTree": "Очистити ялинку",
+      "saveTree": "Зберегти ялинку",
+      "treeSaved": "Ялинку збережено! Рахунок: {{score}}"
+    },
+    "sleigh": {
+      "name": "Поїздка на санях Санти",
+      "description": "Допоможіть Санті уникати перешкод",
+      "score": "Рахунок",
+      "high": "Рекорд",
+      "crash": "Аварія!",
+      "finalScore": "Фінальний рахунок: {{score}}",
+      "instructions": "Використовуйте стрілки ↑ і ↓ для руху Санти",
+      "startGame": "Почати гру",
+      "playing": "Граємо..."
+    },
+    "stack": {
+      "name": "Стопка цукеркових паличок",
+      "description": "Складіть цукеркові палички якомога вище",
+      "stack": "Стопка",
+      "high": "Рекорд",
+      "collapsed": "Стопка впала!",
+      "finalHeight": "Кінцева висота: {{height}}",
+      "score": "Рахунок: {{score}}",
+      "instructions": "Клацніть або натисніть Пробіл, щоб скинути паличку",
+      "startGame": "Почати гру",
+      "drop": "Скинути",
+      "playing": "Граємо..."
+    },
+    "snowman": {
+      "name": "Зліпи сніговика",
+      "description": "Перетягуйте частини, щоб зліпити свого сніговика",
+      "score": "Рахунок",
+      "partsPlaced": "Розміщено частин",
+      "availableParts": "Доступні частини",
+      "selectPart": "Виберіть частину справа",
+      "clickToPlace": "Клацніть, щоб розмістити {{part}}",
+      "congratulations": "🎉 Сніговик готовий!",
+      "finalScore": "Фінальний рахунок: {{score}}",
+      "resetSnowman": "Скинути сніговика"
+    }
+  },
+  "quotes": {
+    "loading": "Завантаження цитати..."
+  },
+  "menu": {
+    "year": "Рік",
+    "settings": "Налаштування",
+    "games": "Ігри"
+  },
+  "events": {
+    "title": "Святкові події",
+    "selectEvent": "Виберіть святкову подію",
+    "none": "Немає (Різдво)",
+    "daysUntil": "{{days}} дн.",
+    "christmas": "Різдво",
+    "diwali": "Дівалі",
+    "easter": "Великдень",
+    "eid_al_fitr": "Ід аль-Фітр",
+    "fourth_of_july": "4 Липня",
+    "halloween": "Гелловін",
+    "hanukkah": "Ханука",
+    "new_year": "Новий Рік",
+    "st_patricks_day": "День Святого Патрика",
+    "thanksgiving": "День подяки",
+    "valentines_day": "День Святого Валентина"
+  }
+}

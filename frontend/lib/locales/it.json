@@ -1,0 +1,176 @@
+{
+  "app": {
+    "title": "Conto alla Rovescia di Natale",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "Giorni",
+    "hours": "Ore",
+    "minutes": "Minuti",
+    "seconds": "Secondi",
+    "christmas": "È Natale! 🎄",
+    "yearProgress": "Progresso Annuale verso Natale",
+    "daysLeft": "Giorni Rimanenti",
+    "yearComplete": "{{percent}}% dell'anno completato"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "description": "Personalizza la tua esperienza del conto alla rovescia",
+    "colorTheme": "Tema Colori",
+    "snowIntensity": "Intensità Neve",
+    "musicVolume": "Volume Musica",
+    "customMusic": "URL Musica Personalizzata",
+    "customMusicPlaceholder": "Incolla il link audio JukeHost qui...",
+    "customMusicHelp": "Carica il tuo audio su JukeHost.co.uk e incolla il link diretto qui",
+    "language": "Lingua",
+    "notifications": "Notifiche"
+  },
+  "themes": {
+    "classic": "Rosso e Verde Classico",
+    "winter": "Blu e Bianco Invernale",
+    "royal": "Porpora e Oro Reale",
+    "candy": "Rosa e Rosso Caramella",
+    "golden": "Eleganza Dorata",
+    "icy": "Gelo Ghiacciato",
+    "forest": "Verde Foresta",
+    "sunset": "Bagliore del Tramonto",
+    "aurora": "Aurora Boreale"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
+  },
+  "notifications": {
+    "title": "Notifiche Push",
+    "enabled": "Attivato",
+    "disabled": "Disattivato",
+    "blocked": "Le notifiche sono bloccate. Abilitale nelle impostazioni del browser.",
+    "oneWeekLabel": "1 Settimana Prima",
+    "oneWeekDefault": "🎄 Solo 1 settimana a Natale!",
+    "threeDaysLabel": "3 Giorni Prima",
+    "threeDaysDefault": "🎅 Solo 3 giorni a Natale!",
+    "oneDayLabel": "1 Giorno Prima",
+    "oneDayDefault": "🎁 Domani è Natale!"
+  },
+  "games": {
+    "title": "Mini-Giochi di Natale",
+    "subtitle": "I giochi si sbloccano con l'avvicinarsi del Natale!",
+    "playNow": "Gioca Ora",
+    "backToGames": "← Torna ai Giochi",
+    "locked": "Bloccato",
+    "unlocksIn": "Si sblocca tra {{days}} giorni",
+    "memory": {
+      "name": "Gioco di Memoria GIF",
+      "description": "Abbina coppie di emoji natalizie",
+      "moves": "Mosse",
+      "pairs": "Coppie",
+      "congratulations": "🎉 Congratulazioni!",
+      "completedIn": "Hai completato il gioco in {{moves}} mosse!",
+      "score": "Punteggio: {{score}}",
+      "newGame": "Nuovo Gioco"
+    },
+    "snowflakes": {
+      "name": "Cattura i Fiocchi di Neve",
+      "description": "Clicca sui fiocchi di neve che cadono per fare punti",
+      "score": "Punteggio",
+      "time": "Tempo",
+      "gameOver": "Gioco Finito!",
+      "finalScore": "Punteggio Finale: {{score}}",
+      "highScore": "Punteggio Massimo: {{score}}",
+      "startGame": "Inizia Gioco",
+      "playing": "Giocando..."
+    },
+    "decorate": {
+      "name": "Decora l'Albero",
+      "description": "Trascina e rilascia gli ornamenti sull'albero",
+      "score": "Punteggio",
+      "ornaments": "Ornamenti",
+      "clickToPlace": "Clicca sull'albero per posizionare {{ornament}}",
+      "clearTree": "Pulisci Albero",
+      "saveTree": "Salva Albero",
+      "treeSaved": "Albero salvato! Punteggio: {{score}}"
+    },
+    "sleigh": {
+      "name": "Giro in Slitta di Babbo Natale",
+      "description": "Aiuta Babbo Natale a evitare gli ostacoli",
+      "score": "Punteggio",
+      "high": "Massimo",
+      "crash": "Schianto!",
+      "finalScore": "Punteggio Finale: {{score}}",
+      "instructions": "Usa le frecce ↑ e ↓ per muovere Babbo Natale",
+      "startGame": "Inizia Gioco",
+      "playing": "Giocando..."
+    },
+    "stack": {
+      "name": "Pila di Bastoncini di Zucchero",
+      "description": "Impila i bastoncini di zucchero più in alto che puoi",
+      "stack": "Pila",
+      "high": "Massimo",
+      "collapsed": "Pila Crollata!",
+      "finalHeight": "Altezza Finale: {{height}}",
+      "score": "Punteggio: {{score}}",
+      "instructions": "Clicca o premi Spazio per far cadere il bastoncino",
+      "startGame": "Inizia Gioco",
+      "drop": "Lascia Cadere",
+      "playing": "Giocando..."
+    },
+    "snowman": {
+      "name": "Costruisci un Pupazzo di Neve",
+      "description": "Trascina e rilascia le parti per costruire il tuo pupazzo di neve",
+      "score": "Punteggio",
+      "partsPlaced": "Parti Posizionate",
+      "availableParts": "Parti Disponibili",
+      "selectPart": "Seleziona una parte a destra",
+      "clickToPlace": "Clicca per posizionare {{part}}",
+      "congratulations": "🎉 Pupazzo di Neve Completo!",
+      "finalScore": "Punteggio Finale: {{score}}",
+      "resetSnowman": "Reimposta Pupazzo di Neve"
+    }
+  },
+  "quotes": {
+    "loading": "Caricamento citazione..."
+  },
+  "menu": {
+    "year": "Anno",
+    "settings": "Impostazioni",
+    "games": "Giochi"
+  },
+  "events": {
+    "title": "Eventi Festivi",
+    "selectEvent": "Seleziona un evento festivo",
+    "none": "Nessuno (Natale)",
+    "daysUntil": "{{days}} giorni",
+    "christmas": "Natale",
+    "diwali": "Diwali",
+    "easter": "Pasqua",
+    "eid_al_fitr": "Eid al-Fitr",
+    "fourth_of_july": "4 Luglio",
+    "halloween": "Halloween",
+    "hanukkah": "Hanukkah",
+    "new_year": "Capodanno",
+    "st_patricks_day": "San Patrizio",
+    "thanksgiving": "Giorno del Ringraziamento",
+    "valentines_day": "San Valentino"
+  }
+}

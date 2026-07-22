@@ -32,6 +32,25 @@ export default function LanguageSelector() {
           <SelectItem value="es">{t('languages.es')}</SelectItem>
           <SelectItem value="fr">{t('languages.fr')}</SelectItem>
           <SelectItem value="nl">{t('languages.nl')}</SelectItem>
+          <SelectItem value="de">{t('languages.de')}</SelectItem>
+          <SelectItem value="it">{t('languages.it')}</SelectItem>
+          <SelectItem value="pt">{t('languages.pt')}</SelectItem>
+          <SelectItem value="ja">{t('languages.ja')}</SelectItem>
+          <SelectItem value="zh">{t('languages.zh')}</SelectItem>
+          <SelectItem value="ko">{t('languages.ko')}</SelectItem>
+          <SelectItem value="ru">{t('languages.ru')}</SelectItem>
+          <SelectItem value="hi">{t('languages.hi')}</SelectItem>
+          <SelectItem value="ar">{t('languages.ar')}</SelectItem>
+          <SelectItem value="tr">{t('languages.tr')}</SelectItem>
+          <SelectItem value="pl">{t('languages.pl')}</SelectItem>
+          <SelectItem value="sv">{t('languages.sv')}</SelectItem>
+          <SelectItem value="no">{t('languages.no')}</SelectItem>
+          <SelectItem value="da">{t('languages.da')}</SelectItem>
+          <SelectItem value="fi">{t('languages.fi')}</SelectItem>
+          <SelectItem value="uk">{t('languages.uk')}</SelectItem>
+          <SelectItem value="vi">{t('languages.vi')}</SelectItem>
+          <SelectItem value="th">{t('languages.th')}</SelectItem>
+          <SelectItem value="el">{t('languages.el')}</SelectItem>
         </SelectContent>
       </Select>
     </div>

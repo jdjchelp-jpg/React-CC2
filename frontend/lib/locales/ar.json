@@ -1,0 +1,176 @@
+{
+  "app": {
+    "title": "العد التنازلي لعيد الميلاد",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "أيام",
+    "hours": "ساعات",
+    "minutes": "دقائق",
+    "seconds": "ثوان",
+    "christmas": "إنه عيد الميلاد! 🎄",
+    "yearProgress": "تقدم العام حتى عيد الميلاد",
+    "daysLeft": "الأيام المتبقية",
+    "yearComplete": "{{percent}}% من العام مكتمل"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "description": "تخصيص تجربة العد التنازلي الخاصة بك",
+    "colorTheme": "السمة اللونية",
+    "snowIntensity": "كثافة الثلج",
+    "musicVolume": "مستوى الموسيقى",
+    "customMusic": "رابط موسيقى مخصص",
+    "customMusicPlaceholder": "الصق رابط JukeHost الصوتي هنا...",
+    "customMusicHelp": "ارفع ملفك الصوتي على JukeHost.co.uk والصق الرابط المباشر هنا",
+    "language": "اللغة",
+    "notifications": "الإشعارات"
+  },
+  "themes": {
+    "classic": "الأحمر والأخضر الكلاسيكي",
+    "winter": "الأزرق والأبيض الشتوي",
+    "royal": "الأرجواني والذهبي الملكي",
+    "candy": "الوردي والأحمر الحلوى",
+    "golden": "الأناقة الذهبية",
+    "icy": "الصقيع الجليدي",
+    "forest": "الأخضر الغابي",
+    "sunset": "وهج الغروب",
+    "aurora": "الشفق القطبي"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
+  },
+  "notifications": {
+    "title": "إشعارات الدفع",
+    "enabled": "مفعل",
+    "disabled": "معطل",
+    "blocked": "الإشعارات محظورة. يرجى تفعيلها في إعدادات المتصفح.",
+    "oneWeekLabel": "قبل أسبوع واحد",
+    "oneWeekDefault": "🎄 تبقى أسبوع واحد فقط حتى عيد الميلاد!",
+    "threeDaysLabel": "قبل 3 أيام",
+    "threeDaysDefault": "🎅 تبقى 3 أيام فقط حتى عيد الميلاد!",
+    "oneDayLabel": "قبل يوم واحد",
+    "oneDayDefault": "🎁 غداً عيد الميلاد!"
+  },
+  "games": {
+    "title": "ألعاب عيد الميلاد المصغرة",
+    "subtitle": "يتم فتح الألعاب مع اقتراب عيد الميلاد!",
+    "playNow": "العب الآن",
+    "backToGames": "← العودة إلى الألعاب",
+    "locked": "مقفل",
+    "unlocksIn": "يفتح بعد {{days}} أيام",
+    "memory": {
+      "name": "لعبة الذاكرة GIF",
+      "description": "طابق أزواج رموز عيد الميلاد",
+      "moves": "الحركات",
+      "pairs": "الأزواج",
+      "congratulations": "🎉 تهانينا!",
+      "completedIn": "لقد أكملت اللعبة في {{moves}} حركات!",
+      "score": "النتيجة: {{score}}",
+      "newGame": "لعبة جديدة"
+    },
+    "snowflakes": {
+      "name": "التقط رقاقات الثلج",
+      "description": "انقر على رقاقات الثلج المتساقطة لكسب النقاط",
+      "score": "النتيجة",
+      "time": "الوقت",
+      "gameOver": "انتهت اللعبة!",
+      "finalScore": "النتيجة النهائية: {{score}}",
+      "highScore": "أعلى نتيجة: {{score}}",
+      "startGame": "ابدأ اللعبة",
+      "playing": "يلعب..."
+    },
+    "decorate": {
+      "name": "زين الشجرة",
+      "description": "اسحب وأفلت الزخارف على الشجرة",
+      "score": "النتيجة",
+      "ornaments": "الزخارف",
+      "clickToPlace": "انقر على الشجرة لوضع {{ornament}}",
+      "clearTree": "تفريغ الشجرة",
+      "saveTree": "حفظ الشجرة",
+      "treeSaved": "تم حفظ الشجرة! النتيجة: {{score}}"
+    },
+    "sleigh": {
+      "name": "رحلة مزلقة سانتا",
+      "description": "ساعد سانتا في تجنب العقبات",
+      "score": "النتيجة",
+      "high": "الأعلى",
+      "crash": "تحطم!",
+      "finalScore": "النتيجة النهائية: {{score}}",
+      "instructions": "استخدم مفتاحي ↑ ↓ لتحريك سانتا",
+      "startGame": "ابدأ اللعبة",
+      "playing": "يلعب..."
+    },
+    "stack": {
+      "name": "كومة حلوى العيد",
+      "description": "كومة حلوى العيد بأعلى ارتفاع ممكن",
+      "stack": "الكومة",
+      "high": "الأعلى",
+      "collapsed": "انهارت الكومة!",
+      "finalHeight": "الارتفاع النهائي: {{height}}",
+      "score": "النتيجة: {{score}}",
+      "instructions": "انقر أو اضغط على مفتاح المسافة لإسقاط الحلوى",
+      "startGame": "ابدأ اللعبة",
+      "drop": "إسقاط",
+      "playing": "يلعب..."
+    },
+    "snowman": {
+      "name": "بناء رجل الثلج",
+      "description": "اسحب وأفلت الأجزاء لبناء رجل الثلج الخاص بك",
+      "score": "النتيجة",
+      "partsPlaced": "الأجزاء الموضوعة",
+      "availableParts": "الأجزاء المتاحة",
+      "selectPart": "اختر جزءاً من اليمين",
+      "clickToPlace": "انقر لوضع {{part}}",
+      "congratulations": "🎉 اكتمل رجل الثلج!",
+      "finalScore": "النتيجة النهائية: {{score}}",
+      "resetSnowman": "إعادة تعيين رجل الثلج"
+    }
+  },
+  "quotes": {
+    "loading": "جارٍ تحميل الاقتباس..."
+  },
+  "menu": {
+    "year": "السنة",
+    "settings": "الإعدادات",
+    "games": "الألعاب"
+  },
+  "events": {
+    "title": "المناسبات الاحتفالية",
+    "selectEvent": "اختر مناسبة احتفالية",
+    "none": "لا شيء (عيد الميلاد)",
+    "daysUntil": "{{days}} أيام",
+    "christmas": "عيد الميلاد",
+    "diwali": "ديوالي",
+    "easter": "عيد الفصح",
+    "eid_al_fitr": "عيد الفطر",
+    "fourth_of_july": "الرابع من يوليو",
+    "halloween": "الهالوين",
+    "hanukkah": "الحانوكا",
+    "new_year": "رأس السنة",
+    "st_patricks_day": "عيد القديس باتريك",
+    "thanksgiving": "عيد الشكر",
+    "valentines_day": "عيد الحب"
+  }
+}

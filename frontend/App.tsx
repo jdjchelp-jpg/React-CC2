@@ -24,6 +24,8 @@ import { loadSettings, saveSettings } from './lib/storage';
 import { registerServiceWorker, checkAndScheduleNotifications } from './lib/notifications';
 import { ColorBlindFilters } from './lib/accessibility';
 import { getSystemTimezone } from './lib/timezone';
+import type { HolidayEvent } from './lib/events';
+import { events } from './lib/events';
 
 export default function App() {
   const { t } = useTranslation();
@@ -68,6 +70,9 @@ export default function App() {
   const [showTrackSanta, setShowTrackSanta] = useState(false);
   const [showViewCode, setShowViewCode] = useState(false);
   const [showThemeBuilder, setShowThemeBuilder] = useState(false);
+  const [selectedEvent, setSelectedEvent] = useState<HolidayEvent | null>(
+    (settings.selectedEvent as HolidayEvent) || null
+  );
   const [isChristmas, setIsChristmas] = useState(false);
   const [hasInteracted, setHasInteracted] = useState(false);
   const [isChristmasEve, setIsChristmasEve] = useState(false);
@@ -135,13 +140,14 @@ export default function App() {
       hapticFeedback,
       uiScale,
       audioAlerts,
+      selectedEvent,
     });
   }, [
     selectedYear, selectedTheme, snowIntensity, musicVolume, customMusicUrl, 
     notificationsEnabled, customNotificationMessages, timezone, targetDate,
     targetEventName, miniMode, reducedMotion, colorBlindMode, accessibilityMode,
     highContrast, largeText, fontWeight, lineSpacing, dyslexiaFont, magnifierMode,
-    textToSpeech, hapticFeedback, uiScale, audioAlerts
+    textToSpeech, hapticFeedback, uiScale, audioAlerts, selectedEvent
   ]);
 
   useEffect(() => {
@@ -195,6 +201,17 @@ export default function App() {
   }, []);
 
   useEffect(() => {
+    if (selectedEvent && events[selectedEvent]) {
+      const ev = events[selectedEvent];
+      const month = String(ev.date.month + 1).padStart(2, '0');
+      const day = String(ev.date.day).padStart(2, '0');
+      setTargetDate(`${selectedYear}-${month}-${day}`);
+    } else if (!targetDate && !targetEventName) {
+      setTargetDate('');
+    }
+  }, [selectedEvent, selectedYear]);
+
+  useEffect(() => {
     const handleInteraction = () => {
       if (!hasInteracted) {
         setHasInteracted(true);
@@ -219,11 +236,13 @@ export default function App() {
     lineHeight: accessibilityMode ? lineSpacing : undefined,
   };
 
+  const eventGradient = selectedEvent && events[selectedEvent] ? events[selectedEvent].gradient : null;
+
   return (
     <div className="dark min-h-screen relative overflow-hidden" style={appStyle}>
       <ColorBlindFilters />
       <div
-        className={`min-h-screen transition-all duration-1000 ${activeTheme.gradient || theme.gradient}`}
+        className={`min-h-screen transition-all duration-1000 ${eventGradient || activeTheme.gradient || theme.gradient}`}
         style={{
           filter: colorBlindMode !== 'none' ? `url(#${colorBlindMode}-filter)` : undefined,
           background: selectedTheme === 'custom' && activeTheme.gradient !== '' ? activeTheme.gradient : undefined,
@@ -275,7 +294,7 @@ export default function App() {
               </div>
             ) : (
               <>
-                <HolidayQuotes />
+                <HolidayQuotes selectedEvent={selectedEvent} />
 
 
 
@@ -301,7 +320,8 @@ export default function App() {
                         isMobile={isMobile}
                         timezone={effectiveTimezone}
                         targetDate={targetDate}
-                        targetEventName={targetEventName}
+                        targetEventName={selectedEvent ? events[selectedEvent].name : targetEventName}
+                        targetEventEmoji={selectedEvent ? events[selectedEvent].emoji : undefined}
                         textToSpeech={textToSpeech}
                         magnifierMode={magnifierMode}
                         hapticFeedback={hapticFeedback}
@@ -333,7 +353,8 @@ export default function App() {
                       isMobile={isMobile}
                       timezone={effectiveTimezone}
                       targetDate={targetDate}
-                      targetEventName={targetEventName}
+                      targetEventName={selectedEvent ? events[selectedEvent].name : targetEventName}
+                      targetEventEmoji={selectedEvent ? events[selectedEvent].emoji : undefined}
                       textToSpeech={textToSpeech}
                       magnifierMode={magnifierMode}
                       hapticFeedback={hapticFeedback}
@@ -379,6 +400,8 @@ export default function App() {
           onTargetDateChange={setTargetDate}
           targetEventName={targetEventName}
           onTargetEventNameChange={setTargetEventName}
+          selectedEvent={selectedEvent}
+          onSelectedEventChange={setSelectedEvent}
           miniMode={miniMode}
           onMiniModeChange={setMiniMode}
           reducedMotion={reducedMotion}

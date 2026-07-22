@@ -40,7 +40,26 @@
     "en": "English",
     "es": "Español",
     "fr": "Français",
-    "nl": "Nederlands"
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
   },
   "notifications": {
     "title": "Notificaciones Push",
@@ -136,5 +155,22 @@
     "year": "Año",
     "settings": "Configuración",
     "games": "Juegos"
+  },
+  "events": {
+    "title": "Eventos Festivos",
+    "selectEvent": "Selecciona un evento festivo",
+    "none": "Ninguno (Navidad)",
+    "daysUntil": "{{days}} días",
+    "christmas": "Navidad",
+    "diwali": "Diwali",
+    "easter": "Pascua",
+    "eid_al_fitr": "Eid al-Fitr",
+    "fourth_of_july": "4 de Julio",
+    "halloween": "Halloween",
+    "hanukkah": "Hanukkah",
+    "new_year": "Año Nuevo",
+    "st_patricks_day": "Día de San Patricio",
+    "thanksgiving": "Día de Acción de Gracias",
+    "valentines_day": "Día de San Valentín"
   }
 }

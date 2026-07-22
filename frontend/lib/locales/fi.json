@@ -1,0 +1,176 @@
+{
+  "app": {
+    "title": "Joulun Laskuri",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "Päivää",
+    "hours": "Tuntia",
+    "minutes": "Minuuttia",
+    "seconds": "Sekuntia",
+    "christmas": "On joulu! 🎄",
+    "yearProgress": "Vuoden edistyminen jouluun",
+    "daysLeft": "Jäljellä Olevat Päivät",
+    "yearComplete": "{{percent}}% vuodesta suoritettu"
+  },
+  "settings": {
+    "title": "Asetukset",
+    "description": "Mukauta laskurikokemustasi",
+    "colorTheme": "Väriteema",
+    "snowIntensity": "Lumen voimakkuus",
+    "musicVolume": "Musiikin äänenvoimakkuus",
+    "customMusic": "Oma musiikki-URL",
+    "customMusicPlaceholder": "Liitä JukeHost-äänilinkki tähän...",
+    "customMusicHelp": "Lataa äänesi JukeHost.co.uk-palveluun ja liitä suora linkki tähän",
+    "language": "Kieli",
+    "notifications": "Ilmoitukset"
+  },
+  "themes": {
+    "classic": "Klassinen Punainen ja Vihreä",
+    "winter": "Talvinen Sininen ja Valkoinen",
+    "royal": "Kuninkaallinen Purppura ja Kulta",
+    "candy": "Karkki Pinkki ja Punainen",
+    "golden": "Kultainen Eleganssi",
+    "icy": "Jäinen Huurre",
+    "forest": "Metsän Vihreä",
+    "sunset": "Auringonlaskun Hehku",
+    "aurora": "Revontulet"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
+  },
+  "notifications": {
+    "title": "Push-ilmoitukset",
+    "enabled": "Käytössä",
+    "disabled": "Pois käytöstä",
+    "blocked": "Ilmoitukset on estetty. Ota ne käyttöön selaimesi asetuksista.",
+    "oneWeekLabel": "1 Viikko Ennen",
+    "oneWeekDefault": "🎄 Enää 1 viikko jouluun!",
+    "threeDaysLabel": "3 Päivää Ennen",
+    "threeDaysDefault": "🎅 Enää 3 päivää jouluun!",
+    "oneDayLabel": "1 Päivä Ennen",
+    "oneDayDefault": "🎁 Huomenna on joulu!"
+  },
+  "games": {
+    "title": "Joulun Minipelit",
+    "subtitle": "Pelit avautuvat joulun lähestyessä!",
+    "playNow": "Pelaa Nyt",
+    "backToGames": "← Takaisin Peleihin",
+    "locked": "Lukittu",
+    "unlocksIn": "Aukeaa {{days}} päivässä",
+    "memory": {
+      "name": "Muisti GIF-peli",
+      "description": "Yhdistä jouluemojipareja",
+      "moves": "Siirrot",
+      "pairs": "Parit",
+      "congratulations": "🎉 Onnittelut!",
+      "completedIn": "Suoritit pelin {{moves}} siirrolla!",
+      "score": "Pisteet: {{score}}",
+      "newGame": "Uusi Peli"
+    },
+    "snowflakes": {
+      "name": "Pyydystä Lumihiutaleita",
+      "description": "Napsauta putoavia lumihiutaleita saadaksesi pisteitä",
+      "score": "Pisteet",
+      "time": "Aika",
+      "gameOver": "Peli Ohi!",
+      "finalScore": "Loppupisteet: {{score}}",
+      "highScore": "Ennätys: {{score}}",
+      "startGame": "Aloita Peli",
+      "playing": "Pelataan..."
+    },
+    "decorate": {
+      "name": "Koristele Joulupuu",
+      "description": "Vedä ja pudota koristeita puuhun",
+      "score": "Pisteet",
+      "ornaments": "Koristeet",
+      "clickToPlace": "Napsauta puuta asettaaksesi {{ornament}}",
+      "clearTree": "Tyhjennä Puu",
+      "saveTree": "Tallenna Puu",
+      "treeSaved": "Puu tallennettu! Pisteet: {{score}}"
+    },
+    "sleigh": {
+      "name": "Joulupukin Rekimatka",
+      "description": "Auta Joulupukkia välttämään esteitä",
+      "score": "Pisteet",
+      "high": "Ennätys",
+      "crash": "Törmäys!",
+      "finalScore": "Loppupisteet: {{score}}",
+      "instructions": "Käytä ↑ ja ↓ nuolinäppäimiä liikuttaaksesi Joulupukkia",
+      "startGame": "Aloita Peli",
+      "playing": "Pelataan..."
+    },
+    "stack": {
+      "name": "Karkkikeppi-Pino",
+      "description": "Pinoa karkkitikkuja niin korkealle kuin mahdollista",
+      "stack": "Pino",
+      "high": "Ennätys",
+      "collapsed": "Pino romahti!",
+      "finalHeight": "Loppukorkeus: {{height}}",
+      "score": "Pisteet: {{score}}",
+      "instructions": "Napsauta tai paina Välilyöntiä pudottaaksesi karkkitikun",
+      "startGame": "Aloita Peli",
+      "drop": "Pudota",
+      "playing": "Pelataan..."
+    },
+    "snowman": {
+      "name": "Rakenna Lumiukko",
+      "description": "Vedä ja pudota osia rakentaaksesi lumiukkosi",
+      "score": "Pisteet",
+      "partsPlaced": "Asetetut Osat",
+      "availableParts": "Saatavilla Olevat Osat",
+      "selectPart": "Valitse osa oikealta",
+      "clickToPlace": "Napsauta asettaaksesi {{part}}",
+      "congratulations": "🎉 Lumiukko Valmis!",
+      "finalScore": "Loppupisteet: {{score}}",
+      "resetSnowman": "Nollaa Lumiukko"
+    }
+  },
+  "quotes": {
+    "loading": "Ladataan sitaattia..."
+  },
+  "menu": {
+    "year": "Vuosi",
+    "settings": "Asetukset",
+    "games": "Pelit"
+  },
+  "events": {
+    "title": "Juhlatapahtumat",
+    "selectEvent": "Valitse juhlatapahtuma",
+    "none": "Ei mitään (Joulu)",
+    "daysUntil": "{{days}} päivää",
+    "christmas": "Joulu",
+    "diwali": "Diwali",
+    "easter": "Pääsiäinen",
+    "eid_al_fitr": "Eid al-Fitr",
+    "fourth_of_july": "4. Heinäkuuta",
+    "halloween": "Halloween",
+    "hanukkah": "Hanukka",
+    "new_year": "Uusi Vuosi",
+    "st_patricks_day": "Pyhän Patrikin Päivä",
+    "thanksgiving": "Kiitospäivä",
+    "valentines_day": "Ystävänpäivä"
+  }
+}

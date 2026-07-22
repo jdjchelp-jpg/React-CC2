@@ -1,0 +1,176 @@
+{
+  "app": {
+    "title": "Noel Geri Sayımı",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "Gün",
+    "hours": "Saat",
+    "minutes": "Dakika",
+    "seconds": "Saniye",
+    "christmas": "Noel geldi! 🎄",
+    "yearProgress": "Noel'e Yıl İlerlemesi",
+    "daysLeft": "Kalan Gün",
+    "yearComplete": "Yılın %{{percent}}'ı tamamlandı"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "description": "Geri sayım deneyiminizi özelleştirin",
+    "colorTheme": "Renk Teması",
+    "snowIntensity": "Kar Yoğunluğu",
+    "musicVolume": "Müzik Sesi",
+    "customMusic": "Özel Müzik URL'si",
+    "customMusicPlaceholder": "JukeHost ses bağlantısını buraya yapıştırın...",
+    "customMusicHelp": "Sesinizi JukeHost.co.uk'a yükleyin ve doğrudan bağlantıyı buraya yapıştırın",
+    "language": "Dil",
+    "notifications": "Bildirimler"
+  },
+  "themes": {
+    "classic": "Klasik Kırmızı ve Yeşil",
+    "winter": "Kış Mavisi ve Beyazı",
+    "royal": "Kraliyet Moru ve Altını",
+    "candy": "Şeker Pembe ve Kırmızı",
+    "golden": "Altın Zarafet",
+    "icy": "Buzlu Don",
+    "forest": "Orman Yeşili",
+    "sunset": "Gün Batımı Işıltısı",
+    "aurora": "Kuzey Işıkları"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
+  },
+  "notifications": {
+    "title": "Bildirimler",
+    "enabled": "Etkin",
+    "disabled": "Devre Dışı",
+    "blocked": "Bildirimler engellendi. Lütfen tarayıcı ayarlarınızdan etkinleştirin.",
+    "oneWeekLabel": "1 Hafta Önce",
+    "oneWeekDefault": "🎄 Noel'e sadece 1 hafta kaldı!",
+    "threeDaysLabel": "3 Gün Önce",
+    "threeDaysDefault": "🎅 Noel'e sadece 3 gün kaldı!",
+    "oneDayLabel": "1 Gün Önce",
+    "oneDayDefault": "🎁 Yarın Noel!"
+  },
+  "games": {
+    "title": "Noel Mini-Oyunları",
+    "subtitle": "Oyunlar, Noel yaklaştıkça açılır!",
+    "playNow": "Şimdi Oyna",
+    "backToGames": "← Oyunlara Dön",
+    "locked": "Kilitli",
+    "unlocksIn": "{{days}} gün içinde açılır",
+    "memory": {
+      "name": "Hafıza GIF Oyunu",
+      "description": "Noel emoji çiftlerini eşleştirin",
+      "moves": "Hamle",
+      "pairs": "Çift",
+      "congratulations": "🎉 Tebrikler!",
+      "completedIn": "Oyunu {{moves}} hamlede tamamladınız!",
+      "score": "Puan: {{score}}",
+      "newGame": "Yeni Oyun"
+    },
+    "snowflakes": {
+      "name": "Kar Tanelerini Yakala",
+      "description": "Puan kazanmak için düşen kar tanelerine tıklayın",
+      "score": "Puan",
+      "time": "Süre",
+      "gameOver": "Oyun Bitti!",
+      "finalScore": "Final Puanı: {{score}}",
+      "highScore": "En Yüksek Puan: {{score}}",
+      "startGame": "Oyunu Başlat",
+      "playing": "Oynanıyor..."
+    },
+    "decorate": {
+      "name": "Ağacı Süsle",
+      "description": "Süsleri ağaca sürükleyip bırakın",
+      "score": "Puan",
+      "ornaments": "Süsler",
+      "clickToPlace": "{{ornament}} yerleştirmek için ağaca tıklayın",
+      "clearTree": "Ağacı Temizle",
+      "saveTree": "Ağacı Kaydet",
+      "treeSaved": "Ağaç kaydedildi! Puan: {{score}}"
+    },
+    "sleigh": {
+      "name": "Noel Baba Kızak Gezisi",
+      "description": "Noel Baba'nın engellerden kaçmasına yardım edin",
+      "score": "Puan",
+      "high": "En Yüksek",
+      "crash": "Çarpışma!",
+      "finalScore": "Final Puanı: {{score}}",
+      "instructions": "Noel Baba'yı hareket ettirmek için ↑ ve ↓ ok tuşlarını kullanın",
+      "startGame": "Oyunu Başlat",
+      "playing": "Oynanıyor..."
+    },
+    "stack": {
+      "name": "Şeker Kamışı İstifleme",
+      "description": "Şeker kamışlarını olabildiğince yükseğe istifleyin",
+      "stack": "İstif",
+      "high": "En Yüksek",
+      "collapsed": "İstif Çöktü!",
+      "finalHeight": "Final Yüksekliği: {{height}}",
+      "score": "Puan: {{score}}",
+      "instructions": "Şeker kamışını bırakmak için tıklayın veya Boşluk tuşuna basın",
+      "startGame": "Oyunu Başlat",
+      "drop": "Bırak",
+      "playing": "Oynanıyor..."
+    },
+    "snowman": {
+      "name": "Kardan Adam Yap",
+      "description": "Kardan adamınızı oluşturmak için parçaları sürükleyip bırakın",
+      "score": "Puan",
+      "partsPlaced": "Yerleştirilen Parçalar",
+      "availableParts": "Mevcut Parçalar",
+      "selectPart": "Sağdan bir parça seçin",
+      "clickToPlace": "{{part}} yerleştirmek için tıklayın",
+      "congratulations": "🎉 Kardan Adam Tamamlandı!",
+      "finalScore": "Final Puanı: {{score}}",
+      "resetSnowman": "Kardan Adamı Sıfırla"
+    }
+  },
+  "quotes": {
+    "loading": "Alıntı yükleniyor..."
+  },
+  "menu": {
+    "year": "Yıl",
+    "settings": "Ayarlar",
+    "games": "Oyunlar"
+  },
+  "events": {
+    "title": "Tatil Etkinlikleri",
+    "selectEvent": "Bir tatil etkinliği seçin",
+    "none": "Yok (Noel)",
+    "daysUntil": "{{days}} gün",
+    "christmas": "Noel",
+    "diwali": "Diwali",
+    "easter": "Paskalya",
+    "eid_al_fitr": "Ramazan Bayramı",
+    "fourth_of_july": "4 Temmuz",
+    "halloween": "Cadılar Bayramı",
+    "hanukkah": "Hanuka",
+    "new_year": "Yeni Yıl",
+    "st_patricks_day": "Aziz Patrick Günü",
+    "thanksgiving": "Şükran Günü",
+    "valentines_day": "Sevgililer Günü"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "app": {
+    "title": "Jule-Nedtelling",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "Dager",
+    "hours": "Timer",
+    "minutes": "Minutter",
+    "seconds": "Sekunder",
+    "christmas": "Det er jul! 🎄",
+    "yearProgress": "Årlig fremgang til jul",
+    "daysLeft": "Gjenstående Dager",
+    "yearComplete": "{{percent}}% av året fullført"
+  },
+  "settings": {
+    "title": "Innstillinger",
+    "description": "Tilpass din nedtellingsopplevelse",
+    "colorTheme": "Fargetema",
+    "snowIntensity": "Snøintensitet",
+    "musicVolume": "Musikkvolum",
+    "customMusic": "Egendefinert musikk-URL",
+    "customMusicPlaceholder": "Lim inn JukeHost-lydlenken her...",
+    "customMusicHelp": "Last opp lyden din til JukeHost.co.uk og lim inn den direkte lenken her",
+    "language": "Språk",
+    "notifications": "Varsler"
+  },
+  "themes": {
+    "classic": "Klassisk Rød & Grønn",
+    "winter": "Vinter Blå & Hvit",
+    "royal": "Kongelig Lilla & Gull",
+    "candy": "Godteri Rosa & Rød",
+    "golden": "Gylden Eleganse",
+    "icy": "Isende Frost",
+    "forest": "Skogsgrønn",
+    "sunset": "Solnedgangsglød",
+    "aurora": "Nordlys"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
+  },
+  "notifications": {
+    "title": "Push-varsler",
+    "enabled": "Aktivert",
+    "disabled": "Deaktivert",
+    "blocked": "Varsler er blokkert. Aktiver dem i nettleserinnstillingene dine.",
+    "oneWeekLabel": "1 Uke Før",
+    "oneWeekDefault": "🎄 Bare 1 uke igjen til jul!",
+    "threeDaysLabel": "3 Dager Før",
+    "threeDaysDefault": "🎅 Bare 3 dager igjen til jul!",
+    "oneDayLabel": "1 Dag Før",
+    "oneDayDefault": "🎁 I morgen er det jul!"
+  },
+  "games": {
+    "title": "Juleminispill",
+    "subtitle": "Spill låses opp når julen nærmer seg!",
+    "playNow": "Spill Nå",
+    "backToGames": "← Tilbake til Spill",
+    "locked": "Låst",
+    "unlocksIn": "Låses opp om {{days}} dager",
+    "memory": {
+      "name": "Memory GIF-spill",
+      "description": "Match par med juleemoji",
+      "moves": "Trekk",
+      "pairs": "Par",
+      "congratulations": "🎉 Gratulerer!",
+      "completedIn": "Du fullførte spillet på {{moves}} trekk!",
+      "score": "Poengsum: {{score}}",
+      "newGame": "Nytt Spill"
+    },
+    "snowflakes": {
+      "name": "Fang Snøfnuggene",
+      "description": "Klikk på fallende snøfnugg for å få poeng",
+      "score": "Poengsum",
+      "time": "Tid",
+      "gameOver": "Spillet Slutt!",
+      "finalScore": "Sluttpoengsum: {{score}}",
+      "highScore": "Rekord: {{score}}",
+      "startGame": "Start Spillet",
+      "playing": "Spiller..."
+    },
+    "decorate": {
+      "name": "Pynt Treet",
+      "description": "Dra og slipp pyntegjenstander på treet",
+      "score": "Poengsum",
+      "ornaments": "Pyntegjenstander",
+      "clickToPlace": "Klikk på treet for å plassere {{ornament}}",
+      "clearTree": "Tøm Treet",
+      "saveTree": "Lagre Treet",
+      "treeSaved": "Treet lagret! Poengsum: {{score}}"
+    },
+    "sleigh": {
+      "name": "Julenissens Sledetur",
+      "description": "Hjelp Julenissen å unngå hindringer",
+      "score": "Poengsum",
+      "high": "Rekord",
+      "crash": "Krasj!",
+      "finalScore": "Sluttpoengsum: {{score}}",
+      "instructions": "Bruk ↑ og ↓ piltastene for å flytte Julenissen",
+      "startGame": "Start Spillet",
+      "playing": "Spiller..."
+    },
+    "stack": {
+      "name": "Polkagrisstabel",
+      "description": "Stable polkagriser så høyt du kan",
+      "stack": "Stabel",
+      "high": "Rekord",
+      "collapsed": "Stabelen raste!",
+      "finalHeight": "Slutthøyde: {{height}}",
+      "score": "Poengsum: {{score}}",
+      "instructions": "Klikk eller trykk på Mellomrom for å slippe polkagrisen",
+      "startGame": "Start Spillet",
+      "drop": "Slipp",
+      "playing": "Spiller..."
+    },
+    "snowman": {
+      "name": "Bygg en Snømann",
+      "description": "Dra og slipp deler for å bygge snømannen din",
+      "score": "Poengsum",
+      "partsPlaced": "Plasserte Deler",
+      "availableParts": "Tilgjengelige Deler",
+      "selectPart": "Velg en del fra høyre",
+      "clickToPlace": "Klikk for å plassere {{part}}",
+      "congratulations": "🎉 Snømann Fullført!",
+      "finalScore": "Sluttpoengsum: {{score}}",
+      "resetSnowman": "Tilbakestill Snømann"
+    }
+  },
+  "quotes": {
+    "loading": "Laster sitat..."
+  },
+  "menu": {
+    "year": "År",
+    "settings": "Innstillinger",
+    "games": "Spill"
+  },
+  "events": {
+    "title": "Høytidsarrangementer",
+    "selectEvent": "Velg et høytidsarrangement",
+    "none": "Ingen (Jul)",
+    "daysUntil": "{{days}} dager",
+    "christmas": "Jul",
+    "diwali": "Diwali",
+    "easter": "Påske",
+    "eid_al_fitr": "Eid al-Fitr",
+    "fourth_of_july": "4. Juli",
+    "halloween": "Halloween",
+    "hanukkah": "Hanukka",
+    "new_year": "Nyttår",
+    "st_patricks_day": "St. Patrick's Day",
+    "thanksgiving": "Thanksgiving",
+    "valentines_day": "Valentinsdagen"
+  }
+}

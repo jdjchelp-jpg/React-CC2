@@ -1,0 +1,176 @@
+{
+  "app": {
+    "title": "Рождественский отсчёт",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "Дней",
+    "hours": "Часов",
+    "minutes": "Минут",
+    "seconds": "Секунд",
+    "christmas": "С Рождеством! 🎄",
+    "yearProgress": "Годовой прогресс до Рождества",
+    "daysLeft": "Осталось дней",
+    "yearComplete": "{{percent}}% года завершено"
+  },
+  "settings": {
+    "title": "Настройки",
+    "description": "Настройте свой опыт отсчёта",
+    "colorTheme": "Цветовая тема",
+    "snowIntensity": "Интенсивность снега",
+    "musicVolume": "Громкость музыки",
+    "customMusic": "URL пользовательской музыки",
+    "customMusicPlaceholder": "Вставьте ссылку на аудио JukeHost здесь...",
+    "customMusicHelp": "Загрузите аудио на JukeHost.co.uk и вставьте прямую ссылку здесь",
+    "language": "Язык",
+    "notifications": "Уведомления"
+  },
+  "themes": {
+    "classic": "Классический красный и зелёный",
+    "winter": "Зимний синий и белый",
+    "royal": "Королевский фиолетовый и золотой",
+    "candy": "Конфетный розовый и красный",
+    "golden": "Золотая элегантность",
+    "icy": "Ледяной мороз",
+    "forest": "Лесной зелёный",
+    "sunset": "Закатное сияние",
+    "aurora": "Северное сияние"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
+  },
+  "notifications": {
+    "title": "Push-уведомления",
+    "enabled": "Включено",
+    "disabled": "Отключено",
+    "blocked": "Уведомления заблокированы. Пожалуйста, включите их в настройках браузера.",
+    "oneWeekLabel": "За 1 неделю",
+    "oneWeekDefault": "🎄 Осталась всего 1 неделя до Рождества!",
+    "threeDaysLabel": "За 3 дня",
+    "threeDaysDefault": "🎅 Осталось всего 3 дня до Рождества!",
+    "oneDayLabel": "За 1 день",
+    "oneDayDefault": "🎁 Завтра Рождество!"
+  },
+  "games": {
+    "title": "Рождественские мини-игры",
+    "subtitle": "Игры открываются по мере приближения Рождества!",
+    "playNow": "Играть сейчас",
+    "backToGames": "← Назад к играм",
+    "locked": "Заблокировано",
+    "unlocksIn": "Откроется через {{days}} дн.",
+    "memory": {
+      "name": "Игра на память GIF",
+      "description": "Найдите пары рождественских эмодзи",
+      "moves": "Ходы",
+      "pairs": "Пары",
+      "congratulations": "🎉 Поздравляем!",
+      "completedIn": "Вы прошли игру за {{moves}} ходов!",
+      "score": "Счёт: {{score}}",
+      "newGame": "Новая игра"
+    },
+    "snowflakes": {
+      "name": "Лови снежинки",
+      "description": "Кликайте на падающие снежинки, чтобы набрать очки",
+      "score": "Счёт",
+      "time": "Время",
+      "gameOver": "Игра окончена!",
+      "finalScore": "Финальный счёт: {{score}}",
+      "highScore": "Рекорд: {{score}}",
+      "startGame": "Начать игру",
+      "playing": "Играем..."
+    },
+    "decorate": {
+      "name": "Укрась ёлку",
+      "description": "Перетаскивайте украшения на ёлку",
+      "score": "Счёт",
+      "ornaments": "Украшения",
+      "clickToPlace": "Кликните на ёлку, чтобы разместить {{ornament}}",
+      "clearTree": "Очистить ёлку",
+      "saveTree": "Сохранить ёлку",
+      "treeSaved": "Ёлка сохранена! Счёт: {{score}}"
+    },
+    "sleigh": {
+      "name": "Поездка на санях Санты",
+      "description": "Помогите Санте избегать препятствий",
+      "score": "Счёт",
+      "high": "Рекорд",
+      "crash": "Авария!",
+      "finalScore": "Финальный счёт: {{score}}",
+      "instructions": "Используйте стрелки ↑ и ↓ для движения Санты",
+      "startGame": "Начать игру",
+      "playing": "Играем..."
+    },
+    "stack": {
+      "name": "Стопка леденцов",
+      "description": "Сложите леденцы как можно выше",
+      "stack": "Стопка",
+      "high": "Рекорд",
+      "collapsed": "Стопка рухнула!",
+      "finalHeight": "Конечная высота: {{height}}",
+      "score": "Счёт: {{score}}",
+      "instructions": "Кликните или нажмите Пробел, чтобы сбросить леденец",
+      "startGame": "Начать игру",
+      "drop": "Сбросить",
+      "playing": "Играем..."
+    },
+    "snowman": {
+      "name": "Собери снеговика",
+      "description": "Перетаскивайте части, чтобы собрать своего снеговика",
+      "score": "Счёт",
+      "partsPlaced": "Частей размещено",
+      "availableParts": "Доступные части",
+      "selectPart": "Выберите часть справа",
+      "clickToPlace": "Кликните, чтобы разместить {{part}}",
+      "congratulations": "🎉 Снеговик готов!",
+      "finalScore": "Финальный счёт: {{score}}",
+      "resetSnowman": "Сбросить снеговика"
+    }
+  },
+  "quotes": {
+    "loading": "Загрузка цитаты..."
+  },
+  "menu": {
+    "year": "Год",
+    "settings": "Настройки",
+    "games": "Игры"
+  },
+  "events": {
+    "title": "Праздничные события",
+    "selectEvent": "Выберите праздничное событие",
+    "none": "Нет (Рождество)",
+    "daysUntil": "{{days}} дн.",
+    "christmas": "Рождество",
+    "diwali": "Дивали",
+    "easter": "Пасха",
+    "eid_al_fitr": "Ид аль-Фитр",
+    "fourth_of_july": "4 июля",
+    "halloween": "Хэллоуин",
+    "hanukkah": "Ханука",
+    "new_year": "Новый год",
+    "st_patricks_day": "День Святого Патрика",
+    "thanksgiving": "День благодарения",
+    "valentines_day": "День Святого Валентина"
+  }
+}

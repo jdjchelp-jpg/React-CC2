@@ -14,6 +14,7 @@ export interface AppSettings {
   timezone?: string;
   targetDate?: string;
   targetEventName?: string;
+  selectedEvent?: string;
   miniMode?: boolean;
   reducedMotion?: boolean;
   colorBlindMode?: 'none' | 'protanopia' | 'deuteranopia' | 'tritanopia';

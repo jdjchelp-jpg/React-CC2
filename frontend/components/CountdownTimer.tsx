@@ -17,6 +17,7 @@ interface CountdownTimerProps {
   timezone?: string;
   targetDate?: string;
   targetEventName?: string;
+  targetEventEmoji?: string;
   textToSpeech?: boolean;
   magnifierMode?: boolean;
   hapticFeedback?: boolean;
@@ -45,6 +46,7 @@ export default function CountdownTimer({
   timezone,
   targetDate,
   targetEventName,
+  targetEventEmoji,
   textToSpeech,
   magnifierMode,
   hapticFeedback,
@@ -191,6 +193,7 @@ export default function CountdownTimer({
             className={`${largeText ? 'text-3xl md:text-4xl' : isMobile ? 'text-xl' : 'text-2xl md:text-3xl'} font-bold text-white drop-shadow-lg`}
             style={textStyle}
           >
+            {targetEventEmoji && <span className="text-2xl md:text-3xl">{targetEventEmoji}</span>}
             {targetEventName || `Christmas ${selectedYear || targetYear}`}
           </h2>
         </div>

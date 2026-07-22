@@ -1,0 +1,176 @@
+{
+  "app": {
+    "title": "Đếm Ngược Giáng Sinh",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "Ngày",
+    "hours": "Giờ",
+    "minutes": "Phút",
+    "seconds": "Giây",
+    "christmas": "Giáng Sinh đến rồi! 🎄",
+    "yearProgress": "Tiến trình năm đến Giáng Sinh",
+    "daysLeft": "Ngày Còn Lại",
+    "yearComplete": "{{percent}}% năm đã hoàn thành"
+  },
+  "settings": {
+    "title": "Cài Đặt",
+    "description": "Tùy chỉnh trải nghiệm đếm ngược của bạn",
+    "colorTheme": "Chủ Đề Màu Sắc",
+    "snowIntensity": "Cường Độ Tuyết",
+    "musicVolume": "Âm Lượng Nhạc",
+    "customMusic": "URL Nhạc Tùy Chỉnh",
+    "customMusicPlaceholder": "Dán liên kết âm thanh JukeHost vào đây...",
+    "customMusicHelp": "Tải âm thanh của bạn lên JukeHost.co.uk và dán liên kết trực tiếp vào đây",
+    "language": "Ngôn Ngữ",
+    "notifications": "Thông Báo"
+  },
+  "themes": {
+    "classic": "Đỏ & Xanh Cổ Điển",
+    "winter": "Xanh Dương & Trắng Mùa Đông",
+    "royal": "Tím & Vàng Hoàng Gia",
+    "candy": "Hồng & Đỏ Kẹo Ngọt",
+    "golden": "Thanh Lịch Vàng",
+    "icy": "Băng Giá",
+    "forest": "Xanh Rừng",
+    "sunset": "Ánh Hoàng Hôn",
+    "aurora": "Cực Quang"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
+  },
+  "notifications": {
+    "title": "Thông Báo Đẩy",
+    "enabled": "Đã Bật",
+    "disabled": "Đã Tắt",
+    "blocked": "Thông báo bị chặn. Vui lòng bật trong cài đặt trình duyệt.",
+    "oneWeekLabel": "1 Tuần Trước",
+    "oneWeekDefault": "🎄 Chỉ còn 1 tuần nữa là Giáng Sinh!",
+    "threeDaysLabel": "3 Ngày Trước",
+    "threeDaysDefault": "🎅 Chỉ còn 3 ngày nữa là Giáng Sinh!",
+    "oneDayLabel": "1 Ngày Trước",
+    "oneDayDefault": "🎁 Ngày mai là Giáng Sinh!"
+  },
+  "games": {
+    "title": "Trò Chơi Giáng Sinh Nhỏ",
+    "subtitle": "Trò chơi mở khóa khi Giáng Sinh đến gần!",
+    "playNow": "Chơi Ngay",
+    "backToGames": "← Quay lại Trò Chơi",
+    "locked": "Đã Khóa",
+    "unlocksIn": "Mở khóa sau {{days}} ngày",
+    "memory": {
+      "name": "Trò Chơi Trí Nhớ GIF",
+      "description": "Ghép các cặp biểu tượng Giáng Sinh",
+      "moves": "Lượt",
+      "pairs": "Cặp",
+      "congratulations": "🎉 Chúc mừng!",
+      "completedIn": "Bạn đã hoàn thành trò chơi trong {{moves}} lượt!",
+      "score": "Điểm: {{score}}",
+      "newGame": "Chơi Mới"
+    },
+    "snowflakes": {
+      "name": "Bắt Bông Tuyết",
+      "description": "Nhấp vào bông tuyết rơi để ghi điểm",
+      "score": "Điểm",
+      "time": "Thời Gian",
+      "gameOver": "Kết Thúc!",
+      "finalScore": "Điểm Cuối: {{score}}",
+      "highScore": "Điểm Cao: {{score}}",
+      "startGame": "Bắt Đầu",
+      "playing": "Đang chơi..."
+    },
+    "decorate": {
+      "name": "Trang Trí Cây",
+      "description": "Kéo và thả đồ trang trí lên cây",
+      "score": "Điểm",
+      "ornaments": "Đồ Trang Trí",
+      "clickToPlace": "Nhấp vào cây để đặt {{ornament}}",
+      "clearTree": "Xóa Cây",
+      "saveTree": "Lưu Cây",
+      "treeSaved": "Đã lưu cây! Điểm: {{score}}"
+    },
+    "sleigh": {
+      "name": "Chuyến Đi Xe Trượt Của Ông Già Noel",
+      "description": "Giúp Ông Già Noel tránh chướng ngại vật",
+      "score": "Điểm",
+      "high": "Cao Nhất",
+      "crash": "Tai Nạn!",
+      "finalScore": "Điểm Cuối: {{score}}",
+      "instructions": "Dùng phím ↑ và ↓ để di chuyển Ông Già Noel",
+      "startGame": "Bắt Đầu",
+      "playing": "Đang chơi..."
+    },
+    "stack": {
+      "name": "Xếp Kẹo Gậy",
+      "description": "Xếp kẹo gậy càng cao càng tốt",
+      "stack": "Chồng",
+      "high": "Cao Nhất",
+      "collapsed": "Chồng kẹo đổ!",
+      "finalHeight": "Chiều Cao Cuối: {{height}}",
+      "score": "Điểm: {{score}}",
+      "instructions": "Nhấp hoặc nhấn Phím Cách để thả kẹo gậy",
+      "startGame": "Bắt Đầu",
+      "drop": "Thả",
+      "playing": "Đang chơi..."
+    },
+    "snowman": {
+      "name": "Xây Người Tuyết",
+      "description": "Kéo và thả các bộ phận để xây người tuyết",
+      "score": "Điểm",
+      "partsPlaced": "Bộ Phận Đã Đặt",
+      "availableParts": "Bộ Phận Có Sẵn",
+      "selectPart": "Chọn một bộ phận từ bên phải",
+      "clickToPlace": "Nhấp để đặt {{part}}",
+      "congratulations": "🎉 Người Tuyết Hoàn Thành!",
+      "finalScore": "Điểm Cuối: {{score}}",
+      "resetSnowman": "Đặt Lại Người Tuyết"
+    }
+  },
+  "quotes": {
+    "loading": "Đang tải câu trích dẫn..."
+  },
+  "menu": {
+    "year": "Năm",
+    "settings": "Cài Đặt",
+    "games": "Trò Chơi"
+  },
+  "events": {
+    "title": "Sự Kiện Lễ Hội",
+    "selectEvent": "Chọn một sự kiện lễ hội",
+    "none": "Không có (Giáng Sinh)",
+    "daysUntil": "{{days}} ngày",
+    "christmas": "Giáng Sinh",
+    "diwali": "Diwali",
+    "easter": "Phục Sinh",
+    "eid_al_fitr": "Eid al-Fitr",
+    "fourth_of_july": "4 Tháng 7",
+    "halloween": "Halloween",
+    "hanukkah": "Hanukkah",
+    "new_year": "Năm Mới",
+    "st_patricks_day": "Lễ Thánh Patrick",
+    "thanksgiving": "Lễ Tạ Ơn",
+    "valentines_day": "Ngày Valentine"
+  }
+}

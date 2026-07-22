@@ -1,0 +1,176 @@
+{
+  "app": {
+    "title": "Weihnachts-Countdown",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "Tage",
+    "hours": "Stunden",
+    "minutes": "Minuten",
+    "seconds": "Sekunden",
+    "christmas": "Es ist Weihnachten! 🎄",
+    "yearProgress": "Jahresfortschritt bis Weihnachten",
+    "daysLeft": "Verbleibende Tage",
+    "yearComplete": "{{percent}}% des Jahres abgeschlossen"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "description": "Passe dein Countdown-Erlebnis an",
+    "colorTheme": "Farbschema",
+    "snowIntensity": "Schneeintensität",
+    "musicVolume": "Musiklautstärke",
+    "customMusic": "Benutzerdefinierte Musik-URL",
+    "customMusicPlaceholder": "JukeHost-Audio-Link hier einfügen...",
+    "customMusicHelp": "Lade deine Audio bei JukeHost.co.uk hoch und füge den direkten Link hier ein",
+    "language": "Sprache",
+    "notifications": "Benachrichtigungen"
+  },
+  "themes": {
+    "classic": "Klassisches Rot & Grün",
+    "winter": "Winterliches Blau & Weiß",
+    "royal": "Königliches Lila & Gold",
+    "candy": "Bonbon Rosa & Rot",
+    "golden": "Goldene Eleganz",
+    "icy": "Eisiger Frost",
+    "forest": "Waldgrün",
+    "sunset": "Sonnenuntergangsglühen",
+    "aurora": "Polarlicht"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
+  },
+  "notifications": {
+    "title": "Push-Benachrichtigungen",
+    "enabled": "Aktiviert",
+    "disabled": "Deaktiviert",
+    "blocked": "Benachrichtigungen sind blockiert. Bitte aktiviere sie in deinen Browsereinstellungen.",
+    "oneWeekLabel": "1 Woche vorher",
+    "oneWeekDefault": "🎄 Nur noch 1 Woche bis Weihnachten!",
+    "threeDaysLabel": "3 Tage vorher",
+    "threeDaysDefault": "🎅 Nur noch 3 Tage bis Weihnachten!",
+    "oneDayLabel": "1 Tag vorher",
+    "oneDayDefault": "🎁 Morgen ist Weihnachten!"
+  },
+  "games": {
+    "title": "Weihnachts-Minispiele",
+    "subtitle": "Spiele werden freigeschaltet, wenn Weihnachten näher rückt!",
+    "playNow": "Jetzt spielen",
+    "backToGames": "← Zurück zu den Spielen",
+    "locked": "Gesperrt",
+    "unlocksIn": "Freischaltung in {{days}} Tagen",
+    "memory": {
+      "name": "GIF-Gedächtnisspiel",
+      "description": "Finde passende Weihnachts-Emoji-Paare",
+      "moves": "Züge",
+      "pairs": "Paare",
+      "congratulations": "🎉 Glückwunsch!",
+      "completedIn": "Du hast das Spiel in {{moves}} Zügen abgeschlossen!",
+      "score": "Punktzahl: {{score}}",
+      "newGame": "Neues Spiel"
+    },
+    "snowflakes": {
+      "name": "Fang die Schneeflocken",
+      "description": "Klicke auf fallende Schneeflocken, um Punkte zu sammeln",
+      "score": "Punktzahl",
+      "time": "Zeit",
+      "gameOver": "Spiel vorbei!",
+      "finalScore": "Endpunktzahl: {{score}}",
+      "highScore": "Höchstpunktzahl: {{score}}",
+      "startGame": "Spiel starten",
+      "playing": "Spielen..."
+    },
+    "decorate": {
+      "name": "Baum schmücken",
+      "description": "Ziehe Ornamente per Drag & Drop auf den Baum",
+      "score": "Punktzahl",
+      "ornaments": "Ornamente",
+      "clickToPlace": "Klicke auf den Baum, um {{ornament}} zu platzieren",
+      "clearTree": "Baum leeren",
+      "saveTree": "Baum speichern",
+      "treeSaved": "Baum gespeichert! Punktzahl: {{score}}"
+    },
+    "sleigh": {
+      "name": "Schlittenfahrt mit dem Weihnachtsmann",
+      "description": "Hilf dem Weihnachtsmann, Hindernissen auszuweichen",
+      "score": "Punktzahl",
+      "high": "Rekord",
+      "crash": "Abgestürzt!",
+      "finalScore": "Endpunktzahl: {{score}}",
+      "instructions": "Benutze die ↑ und ↓ Pfeiltasten, um den Weihnachtsmann zu bewegen",
+      "startGame": "Spiel starten",
+      "playing": "Spielen..."
+    },
+    "stack": {
+      "name": "Zuckerstangen-Stapel",
+      "description": "Staple Zuckerstangen so hoch wie möglich",
+      "stack": "Stapel",
+      "high": "Rekord",
+      "collapsed": "Stapel eingestürzt!",
+      "finalHeight": "Endhöhe: {{height}}",
+      "score": "Punktzahl: {{score}}",
+      "instructions": "Klicke oder drücke die Leertaste, um die Zuckerstange fallen zu lassen",
+      "startGame": "Spiel starten",
+      "drop": "Fallen lassen",
+      "playing": "Spielen..."
+    },
+    "snowman": {
+      "name": "Schneemann bauen",
+      "description": "Ziehe Teile per Drag & Drop, um deinen Schneemann zu bauen",
+      "score": "Punktzahl",
+      "partsPlaced": "Platzierte Teile",
+      "availableParts": "Verfügbare Teile",
+      "selectPart": "Wähle ein Teil von rechts aus",
+      "clickToPlace": "Klicke, um {{part}} zu platzieren",
+      "congratulations": "🎉 Schneemann fertig!",
+      "finalScore": "Endpunktzahl: {{score}}",
+      "resetSnowman": "Schneemann zurücksetzen"
+    }
+  },
+  "quotes": {
+    "loading": "Zitat wird geladen..."
+  },
+  "menu": {
+    "year": "Jahr",
+    "settings": "Einstellungen",
+    "games": "Spiele"
+  },
+  "events": {
+    "title": "Feiertags-Events",
+    "selectEvent": "Wähle ein Feiertags-Event",
+    "none": "Keines (Weihnachten)",
+    "daysUntil": "{{days}} Tage",
+    "christmas": "Weihnachten",
+    "diwali": "Diwali",
+    "easter": "Ostern",
+    "eid_al_fitr": "Eid al-Fitr",
+    "fourth_of_july": "4. Juli",
+    "halloween": "Halloween",
+    "hanukkah": "Chanukka",
+    "new_year": "Neujahr",
+    "st_patricks_day": "St. Patrick's Day",
+    "thanksgiving": "Erntedankfest",
+    "valentines_day": "Valentinstag"
+  }
+}

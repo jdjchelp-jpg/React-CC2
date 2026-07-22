@@ -1,0 +1,176 @@
+{
+  "app": {
+    "title": "Contagem Regressiva de Natal",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "Dias",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "seconds": "Segundos",
+    "christmas": "É Natal! 🎄",
+    "yearProgress": "Progresso do Ano para o Natal",
+    "daysLeft": "Dias Restantes",
+    "yearComplete": "{{percent}}% do ano concluído"
+  },
+  "settings": {
+    "title": "Configurações",
+    "description": "Personalize sua experiência de contagem regressiva",
+    "colorTheme": "Tema de Cor",
+    "snowIntensity": "Intensidade da Neve",
+    "musicVolume": "Volume da Música",
+    "customMusic": "URL de Música Personalizada",
+    "customMusicPlaceholder": "Cole o link de áudio do JukeHost aqui...",
+    "customMusicHelp": "Envie seu áudio para JukeHost.co.uk e cole o link direto aqui",
+    "language": "Idioma",
+    "notifications": "Notificações"
+  },
+  "themes": {
+    "classic": "Vermelho e Verde Clássico",
+    "winter": "Azul e Branco Invernal",
+    "royal": "Roxo e Dourado Real",
+    "candy": "Rosa e Vermelho Doce",
+    "golden": "Elegância Dourada",
+    "icy": "Geada Gélida",
+    "forest": "Verde Floresta",
+    "sunset": "Brilho do Pôr do Sol",
+    "aurora": "Aurora Boreal"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
+  },
+  "notifications": {
+    "title": "Notificações Push",
+    "enabled": "Ativado",
+    "disabled": "Desativado",
+    "blocked": "As notificações estão bloqueadas. Ative-as nas configurações do seu navegador.",
+    "oneWeekLabel": "1 Semana Antes",
+    "oneWeekDefault": "🎄 Falta apenas 1 semana para o Natal!",
+    "threeDaysLabel": "3 Dias Antes",
+    "threeDaysDefault": "🎅 Faltam apenas 3 dias para o Natal!",
+    "oneDayLabel": "1 Dia Antes",
+    "oneDayDefault": "🎁 Amanhã é Natal!"
+  },
+  "games": {
+    "title": "Mini-Jogos de Natal",
+    "subtitle": "Os jogos são desbloqueados conforme o Natal se aproxima!",
+    "playNow": "Jogar Agora",
+    "backToGames": "← Voltar aos Jogos",
+    "locked": "Bloqueado",
+    "unlocksIn": "Desbloqueia em {{days}} dias",
+    "memory": {
+      "name": "Jogo da Memória GIF",
+      "description": "Combine pares de emojis de Natal",
+      "moves": "Movimentos",
+      "pairs": "Pares",
+      "congratulations": "🎉 Parabéns!",
+      "completedIn": "Você completou o jogo em {{moves}} movimentos!",
+      "score": "Pontuação: {{score}}",
+      "newGame": "Novo Jogo"
+    },
+    "snowflakes": {
+      "name": "Pegue os Flocos de Neve",
+      "description": "Clique nos flocos de neve caindo para ganhar pontos",
+      "score": "Pontuação",
+      "time": "Tempo",
+      "gameOver": "Fim de Jogo!",
+      "finalScore": "Pontuação Final: {{score}}",
+      "highScore": "Pontuação Máxima: {{score}}",
+      "startGame": "Iniciar Jogo",
+      "playing": "Jogando..."
+    },
+    "decorate": {
+      "name": "Decore a Árvore",
+      "description": "Arraste e solte enfeites na árvore",
+      "score": "Pontuação",
+      "ornaments": "Enfeites",
+      "clickToPlace": "Clique na árvore para colocar {{ornament}}",
+      "clearTree": "Limpar Árvore",
+      "saveTree": "Salvar Árvore",
+      "treeSaved": "Árvore salva! Pontuação: {{score}}"
+    },
+    "sleigh": {
+      "name": "Passeio de Trenó do Papai Noel",
+      "description": "Ajude o Papai Noel a evitar obstáculos",
+      "score": "Pontuação",
+      "high": "Máximo",
+      "crash": "Batida!",
+      "finalScore": "Pontuação Final: {{score}}",
+      "instructions": "Use as setas ↑ e ↓ para mover o Papai Noel",
+      "startGame": "Iniciar Jogo",
+      "playing": "Jogando..."
+    },
+    "stack": {
+      "name": "Pilha de Bengala Doce",
+      "description": "Empilhe bengalas doces o mais alto que puder",
+      "stack": "Pilha",
+      "high": "Máximo",
+      "collapsed": "Pilha Desabou!",
+      "finalHeight": "Altura Final: {{height}}",
+      "score": "Pontuação: {{score}}",
+      "instructions": "Clique ou pressione Espaço para soltar a bengala",
+      "startGame": "Iniciar Jogo",
+      "drop": "Soltar",
+      "playing": "Jogando..."
+    },
+    "snowman": {
+      "name": "Construa um Boneco de Neve",
+      "description": "Arraste e solte partes para construir seu boneco de neve",
+      "score": "Pontuação",
+      "partsPlaced": "Partes Colocadas",
+      "availableParts": "Partes Disponíveis",
+      "selectPart": "Selecione uma parte à direita",
+      "clickToPlace": "Clique para colocar {{part}}",
+      "congratulations": "🎉 Boneco de Neve Completo!",
+      "finalScore": "Pontuação Final: {{score}}",
+      "resetSnowman": "Reiniciar Boneco de Neve"
+    }
+  },
+  "quotes": {
+    "loading": "Carregando citação..."
+  },
+  "menu": {
+    "year": "Ano",
+    "settings": "Configurações",
+    "games": "Jogos"
+  },
+  "events": {
+    "title": "Eventos Festivos",
+    "selectEvent": "Selecione um evento festivo",
+    "none": "Nenhum (Natal)",
+    "daysUntil": "{{days}} dias",
+    "christmas": "Natal",
+    "diwali": "Diwali",
+    "easter": "Páscoa",
+    "eid_al_fitr": "Eid al-Fitr",
+    "fourth_of_july": "4 de Julho",
+    "halloween": "Halloween",
+    "hanukkah": "Hanukkah",
+    "new_year": "Ano Novo",
+    "st_patricks_day": "Dia de São Patrício",
+    "thanksgiving": "Ação de Graças",
+    "valentines_day": "Dia dos Namorados"
+  }
+}

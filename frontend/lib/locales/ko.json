@@ -1,0 +1,176 @@
+{
+  "app": {
+    "title": "크리스마스 카운트다운",
+    "footer": ""
+  },
+  "countdown": {
+    "days": "일",
+    "hours": "시간",
+    "minutes": "분",
+    "seconds": "초",
+    "christmas": "메리 크리스마스! 🎄",
+    "yearProgress": "크리스마스까지 연간 진행률",
+    "daysLeft": "남은 일수",
+    "yearComplete": "연도의 {{percent}}% 완료"
+  },
+  "settings": {
+    "title": "설정",
+    "description": "카운트다운 환경을 맞춤 설정하세요",
+    "colorTheme": "색상 테마",
+    "snowIntensity": "눈 강도",
+    "musicVolume": "음악 볼륨",
+    "customMusic": "사용자 지정 음악 URL",
+    "customMusicPlaceholder": "JukeHost 오디오 링크를 여기에 붙여넣기...",
+    "customMusicHelp": "JukeHost.co.uk에 오디오를 업로드하고 직접 링크를 여기에 붙여넣으세요",
+    "language": "언어",
+    "notifications": "알림"
+  },
+  "themes": {
+    "classic": "클래식 레드 & 그린",
+    "winter": "겨울 블루 & 화이트",
+    "royal": "로얄 퍼플 & 골드",
+    "candy": "캔디 핑크 & 레드",
+    "golden": "골든 엘레강스",
+    "icy": "아이시 프로스트",
+    "forest": "포레스트 그린",
+    "sunset": "선셋 글로우",
+    "aurora": "오로라"
+  },
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "pt": "Português",
+    "ja": "日本語",
+    "zh": "中文",
+    "ko": "한국어",
+    "ru": "Русский",
+    "hi": "हिन्दी",
+    "ar": "العربية",
+    "tr": "Türkçe",
+    "pl": "Polski",
+    "sv": "Svenska",
+    "no": "Norsk",
+    "da": "Dansk",
+    "fi": "Suomi",
+    "uk": "Українська",
+    "vi": "Tiếng Việt",
+    "th": "ไทย",
+    "el": "Ελληνικά"
+  },
+  "notifications": {
+    "title": "푸시 알림",
+    "enabled": "활성화됨",
+    "disabled": "비활성화됨",
+    "blocked": "알림이 차단되었습니다. 브라우저 설정에서 활성화해 주세요.",
+    "oneWeekLabel": "1주 전",
+    "oneWeekDefault": "🎄 크리스마스까지 단 1주일!",
+    "threeDaysLabel": "3일 전",
+    "threeDaysDefault": "🎅 크리스마스까지 단 3일!",
+    "oneDayLabel": "1일 전",
+    "oneDayDefault": "🎁 내일은 크리스마스!"
+  },
+  "games": {
+    "title": "크리스마스 미니 게임",
+    "subtitle": "크리스마스가 다가오면 게임이 잠금 해제됩니다!",
+    "playNow": "지금 플레이",
+    "backToGames": "← 게임으로 돌아가기",
+    "locked": "잠김",
+    "unlocksIn": "{{days}}일 후 잠금 해제",
+    "memory": {
+      "name": "메모리 GIF 게임",
+      "description": "크리스마스 이모지 짝을 맞추세요",
+      "moves": "이동",
+      "pairs": "쌍",
+      "congratulations": "🎉 축하합니다!",
+      "completedIn": "{{moves}}번 이동으로 게임을 완료했습니다!",
+      "score": "점수: {{score}}",
+      "newGame": "새 게임"
+    },
+    "snowflakes": {
+      "name": "눈송이 잡기",
+      "description": "떨어지는 눈송이를 클릭하여 점수를 얻으세요",
+      "score": "점수",
+      "time": "시간",
+      "gameOver": "게임 오버!",
+      "finalScore": "최종 점수: {{score}}",
+      "highScore": "최고 점수: {{score}}",
+      "startGame": "게임 시작",
+      "playing": "플레이 중..."
+    },
+    "decorate": {
+      "name": "트리 꾸미기",
+      "description": "드래그 앤 드롭으로 트리에 장식을 달아보세요",
+      "score": "점수",
+      "ornaments": "장식",
+      "clickToPlace": "트리를 클릭하여 {{ornament}} 배치",
+      "clearTree": "트리 지우기",
+      "saveTree": "트리 저장",
+      "treeSaved": "트리 저장됨! 점수: {{score}}"
+    },
+    "sleigh": {
+      "name": "산타 썰매 타기",
+      "description": "산타가 장애물을 피하도록 도와주세요",
+      "score": "점수",
+      "high": "최고",
+      "crash": "충돌!",
+      "finalScore": "최종 점수: {{score}}",
+      "instructions": "↑ ↓ 화살표 키를 사용하여 산타를 움직이세요",
+      "startGame": "게임 시작",
+      "playing": "플레이 중..."
+    },
+    "stack": {
+      "name": "캔디 케인 쌓기",
+      "description": "캔디 케인을 가능한 한 높이 쌓아보세요",
+      "stack": "스택",
+      "high": "최고",
+      "collapsed": "스택 붕괴!",
+      "finalHeight": "최종 높이: {{height}}",
+      "score": "점수: {{score}}",
+      "instructions": "클릭하거나 스페이스바를 눌러 캔디 케인을 떨어뜨리세요",
+      "startGame": "게임 시작",
+      "drop": "떨어뜨리기",
+      "playing": "플레이 중..."
+    },
+    "snowman": {
+      "name": "눈사람 만들기",
+      "description": "드래그 앤 드롭으로 눈사람을 만들어보세요",
+      "score": "점수",
+      "partsPlaced": "배치된 부품",
+      "availableParts": "사용 가능한 부품",
+      "selectPart": "오른쪽에서 부품을 선택하세요",
+      "clickToPlace": "클릭하여 {{part}} 배치",
+      "congratulations": "🎉 눈사람 완성!",
+      "finalScore": "최종 점수: {{score}}",
+      "resetSnowman": "눈사람 초기화"
+    }
+  },
+  "quotes": {
+    "loading": "명언 불러오는 중..."
+  },
+  "menu": {
+    "year": "년",
+    "settings": "설정",
+    "games": "게임"
+  },
+  "events": {
+    "title": "휴일 이벤트",
+    "selectEvent": "휴일 이벤트 선택",
+    "none": "없음 (크리스마스)",
+    "daysUntil": "{{days}}일 후",
+    "christmas": "크리스마스",
+    "diwali": "디왈리",
+    "easter": "부활절",
+    "eid_al_fitr": "이드 알피트르",
+    "fourth_of_july": "독립기념일",
+    "halloween": "할로윈",
+    "hanukkah": "하누카",
+    "new_year": "새해",
+    "st_patricks_day": "성 패트릭의 날",
+    "thanksgiving": "추수감사절",
+    "valentines_day": "발렌타인데이"
+  }
+}

@@ -1,4 +1,4 @@
-import { Settings, Volume2, Snowflake, Palette, Music, Globe, Calendar, Eye, Accessibility, Type, Maximize, Volume, Zap, CalendarClock, Key } from 'lucide-react';
+import { Settings, Volume2, Snowflake, Palette, Music, Globe, Calendar, Eye, Accessibility, Type, Maximize, Volume, Zap, CalendarClock, Key, PartyPopper } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   Sheet,
@@ -17,6 +17,8 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 import type { ColorTheme } from '../lib/themes';
+import type { HolidayEvent } from '../lib/events';
+import { events, getDaysUntilEvent } from '../lib/events';
 import NotificationSettings from './NotificationSettings';
 import LanguageSelector from './LanguageSelector';
 import { useTranslation } from 'react-i18next';
@@ -77,6 +79,8 @@ interface SettingsPanelProps {
   onUiScaleChange?: (scale: number) => void;
   audioAlerts?: boolean;
   onAudioAlertsChange?: (enabled: boolean) => void;
+  selectedEvent?: HolidayEvent | null;
+  onSelectedEventChange?: (event: HolidayEvent | null) => void;
 }
 
 export default function SettingsPanel({
@@ -128,7 +132,10 @@ export default function SettingsPanel({
   onUiScaleChange,
   audioAlerts,
   onAudioAlertsChange,
+  selectedEvent,
+  onSelectedEventChange,
 }: SettingsPanelProps) {
+  const currentYear = new Date().getFullYear();
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState<'general' | 'datetime' | 'accessibility' | 'display' | 'customdate'>('general');
   const [santaSecretCode, setSantaSecretCode] = useState('');
@@ -358,6 +365,39 @@ export default function SettingsPanel({
                       ))}
                     </SelectContent>
                   </Select>
+                </div>
+              )}
+
+              {onSelectedEventChange && (
+                <div className="space-y-3 mb-4">
+                  <Label className="flex items-center gap-2" htmlFor="event-select">
+                    <PartyPopper className="w-4 h-4" />
+                    Holiday Event
+                  </Label>
+                  <Select 
+                    value={selectedEvent || 'none'} 
+                    onValueChange={(val) => onSelectedEventChange(val === 'none' ? null : val as HolidayEvent)}
+                  >
+                    <SelectTrigger id="event-select">
+                      <SelectValue placeholder="Select a holiday event" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="none">None (Christmas)</SelectItem>
+                      {Object.entries(events).map(([key, event]) => {
+                        const days = getDaysUntilEvent(key as HolidayEvent, currentYear);
+                        return (
+                          <SelectItem key={key} value={key}>
+                            {event.emoji} {event.name} {days >= 0 ? `(${days} days)` : ''}
+                          </SelectItem>
+                        );
+                      })}
+                    </SelectContent>
+                  </Select>
+                  {selectedEvent && events[selectedEvent] && (
+                    <p className="text-xs text-muted-foreground mt-1">
+                      {events[selectedEvent].emoji} {events[selectedEvent].description}
+                    </p>
+                  )}
                 </div>
               )}
 
