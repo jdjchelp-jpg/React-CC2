@@ -26,6 +26,9 @@
     "tailwindcss": "^4.1.11",
     "zustand": "^5.0.3"
   },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.44.1"
+  },
   "devDependencies": {
     "@tailwindcss/oxide": "^4.1.11",
     "@tailwindcss/vite": "^4.1.11",
@@ -35,7 +38,6 @@
     "lightningcss": "^1.29.2",
     "tw-animate-css": "^1.3.4",
     "typescript": "^5.8.3",
-    "vite": "^6.2.5",
-    "rollup": "^4.44.1"
+    "vite": "^6.2.5"
   }
 }
