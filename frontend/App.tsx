@@ -25,13 +25,20 @@ import { registerServiceWorker, checkAndScheduleNotifications } from './lib/noti
 import { ColorBlindFilters } from './lib/accessibility';
 import { getSystemTimezone } from './lib/timezone';
 import type { HolidayEvent } from './lib/events';
-import { events } from './lib/events';
+import { events, getYearForEvent } from './lib/events';
+import { clearGameData } from './lib/storage';
 
 export default function App() {
   const { t } = useTranslation();
   const settings = loadSettings();
   
-  const [selectedYear, setSelectedYear] = useState(settings.selectedYear || new Date().getFullYear());
+  const currentYear = new Date().getFullYear();
+  const initialEvent = (settings.selectedEvent as HolidayEvent) || null;
+  const initialYear = initialEvent
+    ? getYearForEvent(initialEvent, settings.selectedYear || currentYear)
+    : (settings.selectedYear || currentYear);
+
+  const [selectedYear, setSelectedYear] = useState(initialYear);
   const [selectedTheme, setSelectedTheme] = useState<ColorTheme>((settings.selectedTheme as ColorTheme) || 'classic');
   const [snowIntensity, setSnowIntensity] = useState(settings.snowIntensity ?? 50);
   const [musicVolume, setMusicVolume] = useState(settings.musicVolume ?? 50);
@@ -70,9 +77,7 @@ export default function App() {
   const [showTrackSanta, setShowTrackSanta] = useState(false);
   const [showViewCode, setShowViewCode] = useState(false);
   const [showThemeBuilder, setShowThemeBuilder] = useState(false);
-  const [selectedEvent, setSelectedEvent] = useState<HolidayEvent | null>(
-    (settings.selectedEvent as HolidayEvent) || null
-  );
+  const [selectedEvent, setSelectedEvent] = useState<HolidayEvent | null>(initialEvent);
   const [isChristmas, setIsChristmas] = useState(false);
   const [hasInteracted, setHasInteracted] = useState(false);
   const [isChristmasEve, setIsChristmasEve] = useState(false);
@@ -140,7 +145,7 @@ export default function App() {
       hapticFeedback,
       uiScale,
       audioAlerts,
-      selectedEvent,
+      selectedEvent: selectedEvent ?? undefined,
     });
   }, [
     selectedYear, selectedTheme, snowIntensity, musicVolume, customMusicUrl, 
@@ -205,7 +210,15 @@ export default function App() {
       const ev = events[selectedEvent];
       const month = String(ev.date.month + 1).padStart(2, '0');
       const day = String(ev.date.day).padStart(2, '0');
-      setTargetDate(`${selectedYear}-${month}-${day}`);
+      // Auto-advance year if event has passed
+      const eventDate = new Date(selectedYear, ev.date.month, ev.date.day);
+      if (eventDate.getTime() < Date.now()) {
+        const nextYear = selectedYear + 1;
+        setSelectedYear(nextYear);
+        setTargetDate(`${nextYear}-${month}-${day}`);
+      } else {
+        setTargetDate(`${selectedYear}-${month}-${day}`);
+      }
     } else if (!targetDate && !targetEventName) {
       setTargetDate('');
     }
@@ -229,6 +242,40 @@ export default function App() {
 
   const handleYearChange = (year: number) => {
     setSelectedYear(year);
+  };
+
+  const handleResetData = () => {
+    clearGameData();
+    // Reset all state to defaults
+    setSelectedYear(new Date().getFullYear());
+    setSelectedTheme('classic');
+    setSnowIntensity(50);
+    setMusicVolume(50);
+    setCustomMusicUrl('');
+    setNotificationsEnabled(false);
+    setCustomNotificationMessages({ oneWeek: '', threeDays: '', oneDay: '' });
+    setTimezone('auto');
+    setTargetDate('');
+    setTargetEventName('');
+    setSelectedEvent(null);
+    setMiniMode(false);
+    setReducedMotion(false);
+    setColorBlindMode('none');
+    setAccessibilityMode(false);
+    setHighContrast(false);
+    setLargeText(false);
+    setFontWeight(400);
+    setLineSpacing(1.5);
+    setDyslexiaFont(false);
+    setMagnifierMode(false);
+    setTextToSpeech(false);
+    setHapticFeedback(false);
+    setUiScale(1);
+    setAudioAlerts(false);
+    // Clear all localStorage settings
+    localStorage.removeItem('christmas-countdown-settings');
+    // Close settings panel
+    setShowSettings(false);
   };
 
   const appStyle: React.CSSProperties = {
@@ -430,6 +477,7 @@ export default function App() {
           onUiScaleChange={setUiScale}
           audioAlerts={audioAlerts}
           onAudioAlertsChange={setAudioAlerts}
+          onResetData={handleResetData}
         />
 
         {miniMode && (

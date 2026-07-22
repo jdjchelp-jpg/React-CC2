@@ -96,3 +96,17 @@ export const saveScore = (game: keyof GameScore, score: number): void => {
     console.error('Failed to save score:', error);
   }
 };
+
+export const clearGameData = (): void => {
+  try {
+    // Clear game scores
+    localStorage.removeItem(SCORES_KEY);
+    // Clear custom themes
+    localStorage.removeItem('customThemes');
+    localStorage.removeItem('activeCustomTheme');
+    // Clear secret codes
+    localStorage.removeItem('santaTrackerSecretCode');
+  } catch (error) {
+    console.error('Failed to clear game data:', error);
+  }
+};

@@ -45,7 +45,7 @@ export default function ViewCodeModal({
         <div className="mt-8 space-y-4">
           {/* GitHub */}
           <a
-            href="https://github.com/jdjchelp-jpg/React-CC"
+            href="https://github.com/jdjchelp-jpg/React-CC2"
             target="_blank"
             rel="noopener noreferrer"
             className="

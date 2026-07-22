@@ -1,4 +1,4 @@
-import { Settings, Volume2, Snowflake, Palette, Music, Globe, Calendar, Eye, Accessibility, Type, Maximize, Volume, Zap, CalendarClock, Key, PartyPopper } from 'lucide-react';
+import { Settings, Volume2, Snowflake, Palette, Music, Globe, Calendar, Eye, Accessibility, Type, Maximize, Volume, Zap, CalendarClock, Key, PartyPopper, Trash2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   Sheet,
@@ -81,6 +81,7 @@ interface SettingsPanelProps {
   onAudioAlertsChange?: (enabled: boolean) => void;
   selectedEvent?: HolidayEvent | null;
   onSelectedEventChange?: (event: HolidayEvent | null) => void;
+  onResetData?: () => void;
 }
 
 export default function SettingsPanel({
@@ -134,11 +135,23 @@ export default function SettingsPanel({
   onAudioAlertsChange,
   selectedEvent,
   onSelectedEventChange,
+  onResetData,
 }: SettingsPanelProps) {
   const currentYear = new Date().getFullYear();
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState<'general' | 'datetime' | 'accessibility' | 'display' | 'customdate'>('general');
   const [santaSecretCode, setSantaSecretCode] = useState('');
+  const [confirmReset, setConfirmReset] = useState(false);
+
+  const handleResetData = () => {
+    if (confirmReset && onResetData) {
+      onResetData();
+      setConfirmReset(false);
+    } else {
+      setConfirmReset(true);
+      setTimeout(() => setConfirmReset(false), 4000);
+    }
+  };
 
   const handleSecretCodeSubmit = () => {
     if (santaSecretCode === '333') {
@@ -343,6 +356,26 @@ export default function SettingsPanel({
               Enter secret codes to unlock hidden features. (e.g., 333 for Santa Tracker preview)
             </p>
           </div>
+
+          {onResetData && (
+            <div className="space-y-3 border-t border-white/10 pt-6">
+              <Label className="flex items-center gap-2 text-red-400">
+                <Trash2 className="w-4 h-4" />
+                Reset Data
+              </Label>
+              <p className="text-xs text-muted-foreground mb-2">
+                Clear all game scores, custom themes, and reset theme to default.
+              </p>
+              <Button
+                variant={confirmReset ? "destructive" : "outline"}
+                className={confirmReset ? "w-full bg-red-600 hover:bg-red-700" : "w-full border-red-400/30 text-red-400 hover:bg-red-500/10"}
+                onClick={handleResetData}
+              >
+                <Trash2 className="w-4 h-4 mr-2" />
+                {confirmReset ? "Click again to confirm reset" : "Reset Game Data & Theme"}
+              </Button>
+            </div>
+          )}
             </>
           )}
 

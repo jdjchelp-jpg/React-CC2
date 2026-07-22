@@ -173,3 +173,16 @@ export const getNextEvent = (year: number): { event: EventData; daysUntil: numbe
     daysUntil: closest !== null ? closestDays : 365
   };
 };
+
+/**
+ * Check if a specific event has already passed for the given year.
+ * If it has, returns the next year. Otherwise returns the current year.
+ */
+export const getYearForEvent = (eventId: HolidayEvent, currentYear: number): number => {
+  const days = getDaysUntilEvent(eventId, currentYear);
+  if (days < 0) {
+    // Event has passed for this year, use next year
+    return currentYear + 1;
+  }
+  return currentYear;
+};
