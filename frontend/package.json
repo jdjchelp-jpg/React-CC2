@@ -35,9 +35,7 @@
     "lightningcss": "^1.29.2",
     "tw-animate-css": "^1.3.4",
     "typescript": "^5.8.3",
-    "vite": "^6.2.5"
-  },
-  "optionalDependencies": {
+    "vite": "^6.2.5",
     "rollup": "^4.44.1"
   }
 }
